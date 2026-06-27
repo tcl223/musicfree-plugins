@@ -1,4 +1,8 @@
-# MusicFree 咪咕音乐插件
+# MusicFree 音乐插件
+
+# musicfree-plugins
+
+用于开发测试musicfree插件
 
 这是一个可直接导入 MusicFree 的外部插件工程骨架，目标是接入咪咕音乐的公开可访问内容，支持搜索、歌词、歌单链接解析与歌单导入的开发流程。
 
@@ -44,3 +48,5 @@ D:\musicplugins\dist\migu-musicfree.js
 3. 再处理 `importMusicSheet` 和 `getMusicSheetInfo`，支持歌单导入。
 4. 最后处理 `getMediaSource`，只接入公开允许的可播放地址。
 
+
+>>>>>>> 4f5bc94bfd67cd6929736d0dba3e5cfc706311d6
