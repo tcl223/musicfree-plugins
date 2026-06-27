@@ -1,0 +1,744 @@
+[
+  {
+    "url": "https://music.migu.cn/v5/static/js/default_playlist_detail_cover-f7bed7b2.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "const e=\"\"+new URL(\"../png/default_playlist_detail_cover-8d27e722.png\",import.meta.url).href;export{e as d};\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/js/index.vue_vue_type_script_setup_true_lang-bf696750.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "import{u as m}from\"./vue-router-33a4dc05.js\";import{f as y,e as f}from\"./main-b52a407f.js\";import{d,a9 as I,o as g,J as C,u as e}from\"./@vue-df20709a.js\";const R=d({__name:\"index\",props:{itemInfo:{type:Object,required:!0,default:()=>{}}},setup(i){const p=i,{itemInfo:t}=I(p),u=m(),c=()=>{var o,s;u.push({path:\"/playlist\",query:{playlistId:(s=(o=t.value)==null?void 0:o.logEvent)==null?void 0:s.contentId,playlistType:f.ORDINARY}})};return(o,s)=>{var r,a,n,l;return g(),C(y,{resId:e(t).resId,imgSrc:e(t).imageUrl||e(t).img,title:e(t).txt||e(t).title,playCount:(r=e(t))==null?void 0:r.opNumDesc,playCountDesc:(l=(n=(a=e(t))==null?void 0:a.barList)==null?void 0:n[0])==null?void 0:l.title,onClick:c},null,8,[\"resId\",\"imgSrc\",\"title\",\"playCount\",\"playCountDesc\"])}}});export{R as _};\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/js/check-album-not-074f5892.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "const A=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFTSURBVHgB7ZWvTwMxFMe/7zYzEggECeIEJAPDkDh+2JmRgGQISBDgCUGgCLglTCxBkLMYQjILYYqAAccYpoI/4BQCkpbeirjQZX3X2X3EXfP6+j79kbTAkAxQv041u1uCUuNwVqGYPi5fM0nUzM4ygtyVbobgI/BNKyQawilRxb0QUr7oLvcKeooKiyRqcToYWGlSnngKEkLkv7b/B20JaAGDQPZ4W0JqAlyK08DUpDMtgC/VVeD2GDjacKb6SdZKuvimabc/neluSWUJeG+Yf8Kc3qLzLdOuN4GLprNE3pkxNmL+Z1Wz/+taNqpj0T1LwJNEd1pUAPbLwEHZxG4egdNrcOGdSTLj+t+s3/QZHEbIgnsladFTx0gywpckPHfgg71dCg8YCGoxJKqmPzH8EPixJ2lJuu+CDCrdAVkg1WJf9WnUvH60ZI5zIwtq28WHePELdJBYBFF+tx8AAAAASUVORK5CYII=\",g=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACZSURBVHgB7ZXRCcAgDERjJ8gojtKNdMRu4ApukEZJIZSiRoT++EAK7SUXqJ4Amw6u9ZGIPD8Q2mTn3AUWuPHJK9E4RXtamhciLxzQo2hpyESmiWBETFJP5GWS7uQftSi1Xr8/XrramH9aBiOqBlsGy9kG22C9Qd3LswdN92gJZ6MidKNChE/YBUPYheGwUyaJFsT1PxfORnMDMKrpghkvS1sAAAAASUVORK5CYII=\";export{A as _,g as a};\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/js/useEventDislike-f9a638ed.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "import{f as A}from\"./element-plus-dfcfd0af.js\";import{_ as F,a as V}from\"./check-album-not-074f5892.js\";import{u as j}from\"./vue-router-33a4dc05.js\";import{f as R,_ as z,l as B}from\"./main-b52a407f.js\";import{_ as J}from\"./album-bd0167ab.js\";import{d as K,a9 as O,r as y,l as P,u as t,o as a,J as U,K as G,a as n,c as l,H as D,M as Q,I as L,a2 as W,k as X,E as Y,n as Z}from\"./@vue-df20709a.js\";import{d as ee}from\"./lodash-es-7c7a8676.js\";const te={key:0,class:\"album-check\"},se={key:0,class:\"album-check-img\",loading:\"lazy\",src:F},oe={key:1,class:\"album-check-img\",src:V},ae={class:\"album-item-intros\"},ne=[\"innerHTML\",\"title\"],le=[\"title\"],ie=[\"onClick\",\"innerHTML\"],re={key:0},ue=K({__name:\"index\",props:{itemInfo:{type:Object,required:!0,default:()=>{}},rowSection:{type:Boolean,default:!1}},emits:[\"selected-row-keys\"],setup(m,{expose:p,emit:u}){var k,b,h,I;const c=j(),_=m,{itemInfo:e,rowSection:i}=O(_),v=y(((b=(k=e==null?void 0:e.value)==null?void 0:k.singer)==null?void 0:b.split(\"|\"))||[]),M=y(((I=(h=e==null?void 0:e.value)==null?void 0:h.singerId)==null?void 0:I.split(\"|\"))||[]),r=y(!1),g=u,H=s=>{i.value||c.push({path:\"/singerDetail\",query:{id:s}})},f=s=>{i.value||c.push({path:\"/albumDetail\",query:{albumId:s.contentId||s.albumId||s.id,playlistType:s.resourceType}})},N=()=>{c.push({path:\"/musicLibrary\"})},E=s=>{i.value&&(r.value=!r.value,r.value?g(\"selected-row-keys\",{itemInfo:s,type:\"add\"}):g(\"selected-row-keys\",{itemInfo:s,type:\"del\"}))},$=s=>{r.value=s};return P(()=>i.value,s=>{s||(r.value=!1)}),p({allSelection:$}),(s,o)=>{var x,C,T;const q=A;return t(e).isEmpty?(a(),U(q,{key:0,class:\"album-table-empty\"},{empty:G(()=>[o[3]||(o[3]=n(\"div\",{class:\"emptyText\"},\"你还没有喜欢的专辑哦~\",-1)),n(\"div\",{class:\"btn\",onClick:N},\"去乐库逛逛\")]),_:1})):(a(),l(\"div\",{key:1,class:\"album-item\",onClick:o[2]||(o[2]=d=>E(t(e)))},[n(\"div\",{class:\"album-cover\",onClick:o[0]||(o[0]=d=>f(t(e)))},[t(i)?(a(),l(\"div\",te,[r.value?(a(),l(\"img\",se)):(a(),l(\"img\",oe))])):D(\"\",!0),Q(R,{resId:t(e).id||t(e).albumId,imgSrc:(x=t(e).imgItems[2])==null?void 0:x.img,playCount:((C=t(e).opNumItem)==null?void 0:C.playNumDesc)||t(e).opNumDesc,resourceType:t(e).resourceType,defaultImage:t(J),showAlbumCover:!0,showButtons:!t(i)},null,8,[\"resId\",\"imgSrc\",\"playCount\",\"resourceType\",\"defaultImage\",\"showButtons\"])]),n(\"div\",ae,[n(\"div\",{class:\"album-name\",innerHTML:t(e).title,title:t(e).title,onClick:o[1]||(o[1]=d=>f(t(e)))},null,8,ne),n(\"div\",{class:\"singer\",title:(T=v.value)==null?void 0:T.join(\" / \")},[(a(!0),l(L,null,W(v.value,(d,w)=>{var S;return a(),l(L,{key:w},[n(\"span\",{class:\"hover-text\",onClick:ce=>H(M.value[w]),innerHTML:d},null,8,ie),d!==((S=v.value)==null?void 0:S.at(-1))?(a(),l(\"span\",re,\" / \")):D(\"\",!0)],64)}),128))],8,le)])]))}}});const fe=z(ue,[[\"__scopeId\",\"data-v-3dd5dd04\"]]),ke=m=>{const p=async c=>{const _=m.songs.findIndex(e=>e.id===c.id);_>-1&&(m.songs.splice(_,1),await Z())},u=ee(p,300);return X(()=>B.on(\"toggle-dislike\",u)),Y(()=>{B.off(\"toggle-dislike\",u),u.cancel()}),{handler:p}};export{fe as F,ke as u};\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/js/index-a4ba2f39.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "import{s as ds}from\"./pinia-0985cfc4.js\";import{a as _s,u as xs}from\"./vue-router-33a4dc05.js\";import{a as ps,s as Ts}from\"./@migusdk-617e3513.js\";import{c as ws,s as Cs,r as Ds}from\"./element-plus-dfcfd0af.js\";import{a as Is,e as C,N as vs,_ as Ss,t as bs,Q as hs,U as fs,V as Es,W as ls,u as Ns,l as Rs,X as Ms,Y as Ls,Z as Bs,D as Us}from\"./main-b52a407f.js\";import{d as $s}from\"./default_playlist_detail_cover-f7bed7b2.js\";import{d as gs,r as p,a9 as ks,b as rs,a0 as Ps,o as i,c as d,a,B as ys,u as f,P as A,I as $,a2 as es,M as R,K as ns,H as os,A as Os,z as Vs,k as As,l as cs,R as ss,S as as,J as D,U as qs,V as Ks,a1 as Qs,E as Fs,aq as Gs,n as is,ag as js}from\"./@vue-df20709a.js\";import{_ as Ys}from\"./index.vue_vue_type_script_setup_true_lang-bf696750.js\";import{F as zs,u as Xs}from\"./useEventDislike-f9a638ed.js\";import{B as us}from\"./BulkOperation-2ee53561.js\";import{g as Hs}from\"./index-ab4977c4.js\";import{a as Ws}from\"./lodash-f4622abb.js\";import\"./vue-demi-71ba0ef2.js\";import\"./@element-plus-1821b5ee.js\";import\"./lodash-es-7c7a8676.js\";import\"./@ctrl-f8748455.js\";import\"./@popperjs-c75af06c.js\";import\"./normalize-wheel-es-ed76fb12.js\";import\"./mitt-f7ef348c.js\";import\"./qrcode-79d680f4.js\";import\"./dijkstrajs-f906a09e.js\";import\"./colorthief-3ba93385.js\";import\"./crypto-js-cc382f0e.js\";import\"./@lrc-player-fad15c04.js\";import\"./pinia-plugin-persistedstate-07b2fd8a.js\";import\"./destr-7f161240.js\";import\"./deep-pick-omit-c8d1c207.js\";import\"./check-album-not-074f5892.js\";import\"./album-bd0167ab.js\";const ms=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAElBMVEUAAACUlqWSlqaPj5+Pn5+Tl6QFgM94AAAABXRSTlMAXx8QEBEK/z0AAABtSURBVCjPYxhKgFkBk8WgGghjiQbDBU1DBSAMxtAgIAljB0IVQmQRHIQkQimaQigXXSGYD5VBUwqWQFcKVoiuFKQQQylMIaYgYe0IizCdRNDxCG/iDBDMoMMfyKqI6ECKI0TEIeKIyQGJNYQAANncGG/sxlpRAAAAAElFTkSuQmCC\",Js={class:\"list-info\"},Zs={class:\"right\"},se={key:0,class:\"default-text\"},ee={class:\"current-date\"},te={class:\"days\"},ae={class:\"month\"},oe={key:1,class:\"song-name\"},ne={key:0,class:\"song-info\"},le={class:\"introduction\"},ie={key:1,class:\"expanded-detail\"},re={class:\"tags-box\"},ce={class:\"label\"},ue={class:\"texts\"},de={key:0},ge={key:0,class:\"song-info\"},pe={key:1,class:\"expanded-detail\"},ve={class:\"tags-box\"},he={class:\"label\"},fe={class:\"texts\"},ye={key:1,class:\"song-info\"},me={class:\"introduction\"},_e={key:4,class:\"song-info\"},Ie={class:\"introduction\"},Se={class:\"user-name\"},be={class:\"song-handle\"},ke=gs({__name:\"index\",props:{playlistInfo:{type:Object,required:!0,default:()=>({})},playlistType:{type:String,required:!1}},setup(ts){const t=ts,{state:M}=ds(Is()),_=p(!1),P=p(null),L=p(\"\"),v=p(\"\"),{playlistInfo:g,playlistType:I}=ks(t),O=rs(()=>{var c,h;const y=((c=g.value)==null?void 0:c.imgSrc)??((h=g.value)==null?void 0:h.img)??M.value.todayRecommendCoverUrl;return y?{backgroundImage:`url(${y})`}:{background:`linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(${$s}) lightgray 50% / cover no-repeat`}});Ps(()=>{V()});const V=async()=>{await ps.checkLogin()&&(P.value=await ps.getUserInfo()),t.playlistType===C.RECOMMEND&&j()},j=()=>{const y=new Date,c=y.toLocaleString(\"en-US\",{month:\"short\"}),x=y.getDate().toString().padStart(2,\"0\");L.value=c+\".\",v.value=x},B=()=>{_.value=!_.value},T=()=>{_.value=!1};return(y,c)=>{var x,S,E,q,K,Y,Q,w,z,F,G,r,s,l;const h=ws;return i(),d(\"div\",Js,[a(\"div\",{class:\"left\",style:ys(O.value)},null,4),a(\"div\",Zs,[f(I)===f(C).RECOMMEND?(i(),d(\"div\",se,[c[1]||(c[1]=a(\"div\",{class:\"text\"},\"今日推荐\",-1)),a(\"div\",ee,[a(\"div\",te,A(v.value),1),c[0]||(c[0]=a(\"div\",null,\"/\",-1)),a(\"div\",ae,A(L.value),1)])])):(i(),d(\"div\",oe,A((x=f(g))==null?void 0:x.title),1)),(S=f(g))!=null&&S.intro?(i(),d($,{key:2},[_.value?(i(),d(\"div\",ie,[a(\"div\",{class:\"close\",onClick:T},c[3]||(c[3]=[a(\"img\",{src:ms},null,-1)])),a(\"div\",re,[(i(!0),d($,null,es((q=f(g))==null?void 0:q.tags,e=>(i(),d(\"div\",{class:\"tags\",key:e.tagId},[a(\"div\",ce,A(e.tagName),1)]))),128))]),R(h,{\"max-height\":\"150px\",class:\"introduction-scrollbar\"},{default:ns(()=>{var e;return[a(\"div\",ue,A((e=f(g))==null?void 0:e.intro),1)]}),_:1})])):(i(),d(\"div\",ne,[a(\"div\",le,A((E=f(g))==null?void 0:E.intro),1),a(\"div\",{class:\"expanded\",onClick:B},c[2]||(c[2]=[a(\"div\",{class:\"text\"},\"详情\",-1),a(\"div\",{class:\"arrow\"},[a(\"img\",{src:vs})],-1)]))]))],64)):(i(),d($,{key:3},[(Y=(K=f(g))==null?void 0:K.tags)!=null&&Y.length?(i(),d(\"div\",de,[_.value?(i(),d(\"div\",pe,[a(\"div\",{class:\"close\",onClick:T},c[6]||(c[6]=[a(\"img\",{src:ms},null,-1)])),a(\"div\",ve,[(i(!0),d($,null,es((Q=f(g))==null?void 0:Q.tags,e=>(i(),d(\"div\",{class:\"tags\",key:e.tagId},[a(\"div\",he,A(e.tagName),1)]))),128))]),R(h,{\"max-height\":\"150px\",class:\"introduction-scrollbar\"},{default:ns(()=>{var e;return[a(\"div\",fe,A((e=f(g))==null?void 0:e.intro),1)]}),_:1})])):(i(),d(\"div\",ge,[c[5]||(c[5]=a(\"div\",{class:\"introduction\"},\"暂无简介\",-1)),a(\"div\",{class:\"expanded\",onClick:B},c[4]||(c[4]=[a(\"div\",{class:\"text\"},\"详情\",-1),a(\"div\",{class:\"arrow\"},[a(\"img\",{src:vs})],-1)]))]))])):os(\"\",!0),(w=f(g))!=null&&w.text?(i(),d(\"div\",ye,[a(\"div\",me,A((z=f(g))==null?void 0:z.text),1)])):os(\"\",!0)],64)),f(I)===f(C).RECOMMEND?(i(),d(\"div\",_e,[a(\"div\",Ie,\" ~嘿，\"+A((F=P.value)==null?void 0:F.nickName)+\"，咪咕发现这些歌超适合今日的你 \",1)])):os(\"\",!0),a(\"div\",{class:Os([\"user-info\",{\"is-margin\":_.value||!((G=f(g))!=null&&G.intro)}])},[a(\"div\",{class:\"user-img\",style:ys((r=f(g))!=null&&r.ownerImgSrc?`background: url(${(s=f(g))==null?void 0:s.ownerImgSrc}) lightgray 50% / cover no-repeat`:\"\")},null,4),a(\"div\",Se,A((l=f(g))==null?void 0:l.ownerName),1)],2),a(\"div\",be,[Vs(y.$slots,\"bulkOperationSlot\",{},void 0,!0)])])])}}});const Ae=Ss(ke,[[\"__scopeId\",\"data-v-b45800bf\"]]),xe={class:\"search_info\"},Te={class:\"title\"},we={class:\"res\"},Ce={class:\"category\"},De={class:\"operate\"},Ee={key:0,class:\"songList_box\"},Ne={key:0,class:\"album_box\"},Re={key:0,class:\"singer-box\"},Me=[\"onClick\"],Le=[\"src\"],Be={class:\"singer-name\"},Ue=gs({__name:\"index\",props:{songs:{default:()=>[]}},emits:[\"handleTabChange\",\"changeRowSection\",\"update:singerId\"],setup(ts,{emit:t}){const M=_s(),_=xs(),P=ts,{songs:L}=ks(P),v=p(\"\");Array.isArray(M.query.search)?v.value=M.query.search[0]||\"\":v.value=M.query.search||\"\",typeof v.value!=\"string\"&&(v.value=\"\");const g=p(\"#2B7FD3\"),I=p(\"single\"),O=p(\"\"),V=bs(),{isBottoming:j}=ds(V),B=p([]),T=p(1),y=p(1),c=p([]),h=p(1),x=p(1),S=p([]),E=t;As(()=>{q(),Y(),z(),I.value=sessionStorage.getItem(\"song-search-info\")||\"single\",F(I.value),y.value=1}),cs(j,s=>{s&&(T.value>1&&y.value<T.value&&(y.value+=1,K()),h.value>1&&x.value<h.value&&(x.value+=1,Q()))});const q=async()=>{var e,u;const s=await hs(v.value,1);if(s.code!==\"000000\")return;let l=((u=(e=s==null?void 0:s.originData)==null?void 0:e.songListResultData)==null?void 0:u.totalCount)??0;T.value=Math.ceil(l/20),K()},K=async()=>{var e,u;const s=await hs(v.value,y.value);if(s.code!==\"000000\")return;const l=(u=(e=s.originData)==null?void 0:e.songListResultData)==null?void 0:u.result;l==null||l.forEach(o=>{o.imageUrl=o.musicListPicUrl,o.barList=[{title:(o.playNum/1e4).toFixed(1)+\"万\"}],o.txt=o.name,o.txt=o.txt.replace(v.value,`<span style=\"color:${g.value};\">`+v.value+\"</span>\"),o.resId=o.id,o.logEvent={contentId:o.id},B.value.push(o)})},Y=async()=>{var e;let l=(e=(await fs(v.value,1)).data)==null?void 0:e.totalCount;h.value=Math.ceil(l/20),Q()},Q=async()=>{var l,e,u,o,N;const s=await fs(v.value,x.value);if((s==null?void 0:s.code)===\"000000\"){let X=[],W={},H=[],n={};(e=(l=s.data)==null?void 0:l.result)==null||e.forEach(m=>{m.resourceType===\"5\"&&X.push(m.id),m.resourceType===\"2003\"&&H.push(m.id)}),X.length&&(await w(\"5\",X)).forEach(b=>{var J,Z;b.status===\"fulfilled\"&&b.value.ok&&(W={...(Z=(J=b==null?void 0:b.value)==null?void 0:J.originData)==null?void 0:Z.data,...W})}),H.length&&(await w(\"2003\",H)).forEach(b=>{var J,Z;b.status===\"fulfilled\"&&b.value.ok&&(n={...(Z=(J=b==null?void 0:b.value)==null?void 0:J.originData)==null?void 0:Z.data,...n})});let U={...W,...n};(o=(u=s.data)==null?void 0:u.result)==null||o.forEach(m=>{var b;m.opNumDesc=((b=U[m.id])==null?void 0:b.opNumDesc)||\"\"});const k=(N=s.data)==null?void 0:N.result;k==null||k.forEach(m=>{m.title=m.name,m.title=m.title.replace(v,`<span style=\"color:${g.value};\">`+v+\"</span>\"),m.singer=m.singer.replace(v,`<span style=\"color:${g.value};\">`+v+\"</span>\"),c.value.push(m)})}},w=async(s,l)=>{const e=Array.from({length:Math.ceil(l.length/50)},(o,N)=>l.slice(N*50,(N+1)*50));return await Promise.allSettled(e.map(o=>Hs({opType:\"play\",resourceType:s,ids:o.join(\",\")})))},z=async()=>{const s=await Es(v.value);s.code===\"000000\"&&(S.value=s.data,S.value.forEach(l=>{l.singer=l.singer.replace(`<span style=\"color:${g.value};\">`+v.value+\"</span>\"),O.value=l.singerId,E(\"update:singerId\",l.singerId)}))},F=s=>{E(\"handleTabChange\",s),sessionStorage.setItem(\"song-search-info\",s)},G=s=>{_.push({path:\"/singerDetail\",query:{id:s==null?void 0:s.singerId,playlistType:C.SINGER_SONG}})},r=s=>{E(\"changeRowSection\",s)};return(s,l)=>{const e=Ds,u=Cs;return i(),d(\"div\",xe,[a(\"div\",Te,[a(\"div\",we,A(v.value),1),l[1]||(l[1]=a(\"div\",null,\"的相关结果\",-1))]),a(\"div\",Ce,[R(u,{modelValue:I.value,\"onUpdate:modelValue\":l[0]||(l[0]=o=>I.value=o),class:\"demo-tabs\",onTabChange:F},{default:ns(()=>[R(e,{label:\"单曲\",name:\"single\"}),R(e,{label:\"歌单\",name:\"songList\"}),R(e,{label:\"专辑\",name:\"album\"}),R(e,{label:\"歌手\",name:\"singer\"})]),_:1},8,[\"modelValue\"])]),ss(a(\"div\",De,[R(us,{batch:!1,search:!0,songs:f(L),playlistId:O.value,onChangeRowSection:r},null,8,[\"songs\",\"playlistId\"])],512),[[as,I.value===\"single\"]]),ss(a(\"div\",null,[B.value.length?(i(),d(\"div\",Ee,[(i(!0),d($,null,es(B.value,o=>(i(),D(Ys,{key:o.id,itemInfo:o},null,8,[\"itemInfo\"]))),128))])):(i(),D(ls,{key:1}))],512),[[as,I.value===\"songList\"]]),ss(a(\"div\",null,[c.value.length?(i(),d(\"div\",Ne,[(i(!0),d($,null,es(c.value,o=>(i(),D(zs,{ref_for:!0,ref:\"album\",key:o.singerId,itemInfo:o},null,8,[\"itemInfo\"]))),128))])):(i(),D(ls,{key:1}))],512),[[as,I.value===\"album\"]]),ss(a(\"div\",null,[S.value.length?(i(),d(\"div\",Re,[(i(!0),d($,null,es(S.value,o=>(i(),d(\"div\",{class:\"singer-c\",onClick:N=>G(o),key:o.resId},[a(\"img\",{src:o.imgs[0].img},null,8,Le),a(\"span\",Be,A(o.singer),1)],8,Me))),128))])):(i(),D(ls,{key:1}))],512),[[as,I.value===\"singer\"]])])}}});const $e=Ss(Ue,[[\"__scopeId\",\"data-v-e6e72489\"]]),pt=gs({__name:\"index\",setup(ts){const t=qs({playlistInfo:{id:\"\",title:\"\",intro:\"\",imgSrc:\"\",ownerId:\"\",ownerName:\"\",ownerImgSrc:\"\",firstStartDate:\"\",resourceType:\"\",totalCount:0,songs:[],tags:[]},songs:[],rowSection:!1,searchTxt:\"\"}),M=p(\"#2B7FD3\"),_=_s(),P=p(!0),L=Is(),v=bs();v.setThreshold(20);const g=p(1),I=p(!1),O=p(0),V=p([]),j=p(null),{state:B}=ds(L),T=p(null),y=p(\"\");Xs(t);const{getPlaylistMusicData:c}=Ns(),h=rs(()=>_.query.playlistId),x=rs(()=>_.query.playlistType),S=p(!1);As(()=>{const r=async s=>{var l;s!=null&&s.musicListId&&h.value?s.musicListId===h.value&&(((l=t.songs[t.songs.length-1])==null?void 0:l.id)!==s.songInfo.id&&t.songs.unshift(s.songInfo),await is()):console.warn(\"参数缺失\",{eventMusicId:s==null?void 0:s.musicListId,routeMusicId:h.value})};Rs.on(\"update-playlist\",r)}),Ks(()=>{S.value=!0,q(!1)}),cs(()=>v.isBottoming,async r=>{t.searchTxt&&t.songs.length&&r&&!I.value&&(await is(),E())}),cs(()=>B.value.playlistId,r=>{r===h.value&&G(r)});const E=Ws.throttle(()=>{g.value++,q(!0)},1500),q=async r=>{var l;if(_.query.search){t.searchTxt=_.query.search;const e=document.getElementsByClassName(\"migu-content\")[0];O.value=e.scrollTop;const u=await Ms(t.searchTxt,g.value);if(Array.isArray(u.originData)&&u.originData.length<20&&(I.value=!0),!Array.isArray(u.originData)||u.originData.length===0){S.value=!1;return}let o=[],N=[];o=u==null?void 0:u.originData,o.length&&o.forEach(n=>{var U;n.className=\"Song\",n.imgSrc=Ls(n.img1),n.id=n.contentId,n.album={id:n.albumId,dalbumId:n.dalbumId||\"\",name:n.album,namePY:n.albumPinyin},n.singers=n.singerList,n.singers.forEach(k=>{k.highlightSingerName=k.name,k.highlightSingerName=k.highlightSingerName.replace(t.searchTxt,`<span style=\"color:${M.value};\">`+t"
+  },
+  {
+    "url": "https://uem.migu.cn:18088/udcc/webData.html",
+    "method": "POST",
+    "status": 200,
+    "contentType": "text/plain;charset=UTF-8",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "{\"code\":200}"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/css/useEventDislike-980037da.css",
+    "method": "GET",
+    "status": 200,
+    "contentType": "text/css",
+    "resourceType": "stylesheet",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": ".album-item[data-v-3dd5dd04]{display:flex;flex-direction:column;align-items:flex-start}.album-item .album-cover[data-v-3dd5dd04]{align-self:stretch;position:relative;display:flex;align-items:center;width:calc(100% - .75rem)}.album-item .album-cover .album-check[data-v-3dd5dd04]{position:absolute;z-index:3;top:0;left:0}.album-item .album-cover .album-check .album-check-img[data-v-3dd5dd04]{cursor:pointer}.album-item .album-item-intros[data-v-3dd5dd04]{margin-top:8px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:2px;align-self:stretch}.album-item .album-item-intros div[data-v-3dd5dd04]{overflow:hidden;text-overflow:ellipsis;font-family:PingFang SC;font-weight:400;line-height:normal;font-style:normal}.album-item .album-item-intros .album-name[data-v-3dd5dd04]{min-height:20px;line-height:20px;-webkit-line-clamp:2;display:-webkit-box;-webkit-box-orient:vertical;align-self:stretch;color:#121c37;font-size:14px;cursor:pointer}.album-item .album-item-intros .singer[data-v-3dd5dd04]{width:100%;height:17px;line-height:17px;color:#9397a4;font-size:12px;font-weight:400;white-space:nowrap;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;aspect-ratio:1/1}.album-table-empty[data-v-3dd5dd04] .el-table__empty-block{height:44vh!important}.album-table-empty[data-v-3dd5dd04] .el-table__empty-block .el-table__empty-text{width:unset;margin-top:40px}.album-table-empty[data-v-3dd5dd04] .el-table__empty-block .el-table__empty-text .emptyText{overflow:hidden;color:#696f80;text-overflow:ellipsis;font-family:PingFang SC;font-size:14px;font-style:normal;font-weight:400;line-height:normal}.album-table-empty[data-v-3dd5dd04] .el-table__empty-block .el-table__empty-text .btn{margin-top:20px;width:150px;height:40px;padding:5px 30px;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:23.143px;background:linear-gradient(263deg,#ff4ece 0%,#ff499d 31.35%,#ff4f60 100%);color:#fff;text-align:center;font-family:PingFang SC;font-size:15px;font-style:normal;font-weight:500;line-height:normal;cursor:pointer}.el-table[data-v-3dd5dd04]{--el-table-border-color: #ffffff}\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/css/BulkOperation-e52cc62b.css",
+    "method": "GET",
+    "status": 200,
+    "contentType": "text/css",
+    "resourceType": "stylesheet",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": ".options[data-v-a4e03a16]{display:flex;flex-direction:row;gap:16px}.options .options-btn[data-v-a4e03a16]{display:flex;height:2.25rem;padding:0rem .75rem;justify-content:center;align-items:center;background:#f4f7fa;border-radius:8px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none}.options .options-btn[data-v-a4e03a16]:hover{background:#e7e9ee}.options .options-btn>img[data-v-a4e03a16]{width:1.5rem;height:1.5rem}.options .options-btn>span[data-v-a4e03a16]{font-family:PingFang SC;font-size:.875rem;font-style:normal;font-weight:500;margin-left:.5rem}.options .options-btn>.active[data-v-a4e03a16]{color:#121c37}.options .options-btn>.not-active[data-v-a4e03a16]{color:#d5d8e0}.options .price[data-v-a4e03a16]{color:#fff;font-family:PingFang SC;font-style:normal;font-weight:600;line-height:18px;background:#ff2667}.options .price .price-icon[data-v-a4e03a16]{font-size:13px}.options .price .price-text[data-v-a4e03a16]{font-size:20px}.options .price[data-v-a4e03a16]:hover{background:#ff2667}.options .options-complete-btn[data-v-a4e03a16]{padding:0rem 1.25rem}.options .complete[data-v-a4e03a16]{flex:1;display:flex;justify-content:flex-end}.options .complete>span[data-v-a4e03a16]{color:#121c37;font-size:14px}.disabled-options[data-v-a4e03a16]{margin-bottom:1.25rem}.bulk-sticky[data-v-a4e03a16]{width:100%;background-color:#fff;padding:20px 0 0;min-height:80px}\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/css/index-39e46fff.css",
+    "method": "GET",
+    "status": 200,
+    "contentType": "text/css",
+    "resourceType": "stylesheet",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": ".list-info[data-v-b45800bf]{display:flex;margin-bottom:24px}.list-info .left[data-v-b45800bf]{width:10rem;height:10rem;border-radius:.75rem;background-size:cover;background-position:center;background-repeat:no-repeat}.list-info .right[data-v-b45800bf]{width:100%;flex:1;padding-left:1.25rem;display:flex;flex-direction:column;position:relative}.list-info .right .default-text[data-v-b45800bf]{display:flex;align-items:center;gap:10px;align-self:stretch}.list-info .right .default-text .text[data-v-b45800bf]{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;text-overflow:ellipsis;font-family:PingFang SC;font-size:22px;font-style:normal;font-weight:500;line-height:normal}.list-info .right .default-text .current-date[data-v-b45800bf]{display:flex;align-items:center;gap:4px;color:#121c37;font-style:normal;font-weight:400;line-height:normal}.list-info .right .default-text .current-date .days[data-v-b45800bf]{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;text-overflow:ellipsis;font-family:FZDaBiaoSong-B06S;font-size:32px}.list-info .right .default-text .current-date .month[data-v-b45800bf]{font-family:FZDaBiaoSong-B06S;font-size:20px}.list-info .right .song-name[data-v-b45800bf]{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;align-self:stretch;overflow:hidden;color:#121c37;text-overflow:ellipsis;font-family:PingFang SC;font-size:1.375rem;font-style:normal;font-weight:500;line-height:normal}.list-info .right .song-info[data-v-b45800bf]{display:flex;justify-items:center;align-items:center;padding:.625rem 0}.list-info .right .song-info .introduction[data-v-b45800bf]{margin-right:1rem;overflow:hidden;color:#696f80;text-overflow:ellipsis;font-family:PingFang SC;font-size:.875rem;font-style:normal;font-weight:400;line-height:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;flex:1}.list-info .right .song-info .expanded[data-v-b45800bf]{width:3.625rem;display:flex;justify-items:center;align-items:center;cursor:pointer}.list-info .right .song-info .expanded .text[data-v-b45800bf]{color:#000;font-family:PingFang SC;font-size:.875rem;font-style:normal;font-weight:400;line-height:normal}.list-info .right .song-info .expanded .arrow[data-v-b45800bf]{margin-left:.3rem;width:1rem;height:1rem}.list-info .right .expanded-detail[data-v-b45800bf]{position:absolute;width:100%;margin-top:40px;display:flex;padding:1.25rem .875rem;flex-direction:column;align-items:flex-start;gap:.75rem;border-radius:.5rem;background:#ffffff;box-shadow:0 0 8px #0000001a;z-index:2}.list-info .right .expanded-detail .close[data-v-b45800bf]{width:1.25rem;height:1.25rem;position:absolute;right:.25rem;top:.25rem;cursor:pointer}.list-info .right .expanded-detail .tags-box[data-v-b45800bf]{display:flex;align-items:center;align-content:center;gap:10px;flex-shrink:0;flex-wrap:wrap}.list-info .right .expanded-detail .tags-box .tags[data-v-b45800bf]{display:flex;align-items:center;align-content:center;gap:.625rem;align-self:stretch;flex-wrap:wrap}.list-info .right .expanded-detail .tags-box .tags .label[data-v-b45800bf]{display:flex;min-width:88px;height:32px;padding:6px 16px;justify-content:center;align-items:center;gap:.625rem;border-radius:1.125rem;background:#f4f7fa}.list-info .right .expanded-detail .tags-box .texts[data-v-b45800bf]{color:#696f80;font-family:PingFang SC;font-size:.875rem;font-style:normal;font-weight:400;line-height:normal}.list-info .right .expanded-detail .introduction-scrollbar[data-v-b45800bf]{padding-top:12px;line-height:normal;color:var(-----SubIcon, #696f80);font-family:PingFang SC;font-size:14px}.list-info .right .user-info[data-v-b45800bf]{display:flex;gap:10px}.list-info .right .user-info .user-img[data-v-b45800bf]{width:24px;height:24px;border-radius:24px}.list-info .right .user-info .user-name[data-v-b45800bf]{margin-top:.25rem;display:-webkit-box;overflow:hidden;max-width:92%;font-size:12px;font-family:PingFang SC;text-overflow:ellipsis;color:#696f80;font-style:normal;font-weight:500;line-height:18px;word-break:break-all;-webkit-line-clamp:1;-webkit-box-orient:vertical}.list-info .right .song-handle[data-v-b45800bf]{position:absolute;left:1.25rem;bottom:0}.list-info .right .is-margin[data-v-b45800bf]{margin-top:.8rem}.title[data-v-e6e72489]{display:flex;align-items:center;margin-bottom:20px;font-family:PingFang SC;font-size:14px;font-style:normal;font-weight:400;color:#696f80}.title .res[data-v-e6e72489]{font-family:PingFang SC;font-size:22px;font-style:normal;font-weight:500;margin-right:10px;color:#121c37}[data-v-e6e72489] .el-tabs__header .el-tabs__nav-wrap:after{display:none}[data-v-e6e72489] .el-tabs__header .el-tabs__active-bar{background-color:#ff2667}[data-v-e6e72489] .el-tabs__header .el-tabs__item.is-active{color:#121c37}[data-v-e6e72489] .el-tabs__header .el-tabs__active-bar{width:12px!important;margin-left:12px;bottom:2px}[data-v-e6e72489] .el-tabs__header .el-tabs__item{color:#696f80;font-family:PingFang SC;font-size:17px;font-style:normal;font-weight:500;line-height:normal}[data-v-e6e72489] .el-tabs__header .el-tabs__item:hover{color:#121c37}.operate[data-v-e6e72489]{margin-bottom:20px;display:flex;align-items:center;position:relative}[data-v-e6e72489] .el-tag{padding:7px 16px;cursor:pointer}[data-v-e6e72489] .el-tag--info{background-color:#fff;color:#121c37}.songList_box[data-v-e6e72489]{display:grid;grid-template-columns:repeat(6,1fr);grid-gap:20px}.songList_box .songs-blurb_item[data-v-e6e72489]{margin-bottom:0}@media screen and (max-width: 1050px){.songList_box[data-v-e6e72489]{grid-template-columns:repeat(5,1fr)}}.singer-box[data-v-e6e72489]{display:grid;grid-template-columns:repeat(6,1fr);grid-gap:.5rem}@media screen and (max-width: 1050px){.singer-box[data-v-e6e72489]{grid-template-columns:repeat(5,1fr)}}.singer-box>.singer-c[data-v-e6e72489]{width:137px;border-radius:.5rem;display:flex;flex-direction:column;align-items:center;padding:10px;cursor:pointer}.singer-box>.singer-c>img[data-v-e6e72489]{width:124px;height:124px;max-width:124px;border-radius:50%;-o-object-fit:cover;object-fit:cover}.singer-box>.singer-c>.singer-name[data-v-e6e72489]{width:100%;color:#3d4454;margin-top:.46rem;text-align:center;white-space:nowrap;font-family:PingFang SC;font-size:.875rem;padding-bottom:.3rem;font-weight:400;line-height:normal;overflow:hidden;text-overflow:ellipsis}.singer-box>.singer-c>.singer-fans[data-v-e6e72489]{color:#9397a4;overflow:hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;font-family:PingFang SC;font-size:.75rem;font-style:normal;font-weight:400;margin-top:.46rem}.singer-box>.singer-c[data-v-e6e72489]:hover{background:#f4f7fa}.singer-box>.active[data-v-e6e72489]{color:#ff2667;border:1px solid rgba(255,38,103,.1);background:rgba(255,38,103,.1)}.album_box[data-v-e6e72489]{display:grid;grid-template-columns:repeat(6,1fr);grid-gap:20px}@media screen and (max-width: 1050px){.album_box[data-v-e6e72489]{grid-template-columns:repeat(5,1fr)}}\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/js/BulkOperation-2ee53561.js",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/javascript",
+    "resourceType": "script",
+    "requestHeaders": {
+      "origin": "https://music.migu.cn",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "import{t as Le}from\"./element-plus-dfcfd0af.js\";import{d as He,a as De}from\"./vue-router-33a4dc05.js\";import{a as ee,p as je}from\"./@migusdk-617e3513.js\";import{a as Ke,b as Fe,c as Oe,u as Ze,O as se,a3 as ze,a4 as Ge,a5 as We,S as D,a6 as qe,a7 as _e,T as m,a8 as j,a9 as $e,k as te,aa as es,l as ss,ab as ts,ac as as,_ as os}from\"./main-b52a407f.js\";import{l as As}from\"./lodash-f4622abb.js\";import{d as ns,a9 as is,r as g,a0 as ls,V as cs,l as ae,w as rs,E as us,o as A,c as n,u as r,J as oe,K,I as k,a as s,P as gs,H as M,M as Q,ar as ds,i as ps,A as Ae}from\"./@vue-df20709a.js\";const ce=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE6SURBVHgB7ZNBTsMwEEX/uNmxSYEFUiPhnoBuIFn2CHADjkBPgLgBnACOwA3osoUFcAIsUbbU7MkMdqVIKUrJCISERN8mHnu+vzyZAda0QJqkbi9/IoKt74nAzV+m/TZtAgXG0JkI2+U94zTapRds9vJzIezhR4ifz26Pqij5bGcgVJmQ4BEK6vlMirJvZflNNzsYQ8lX+Qa/jMogdlHa2z+u4riOexqtqotii4bS2io2tFhbjfZvlOh/G6h+cuCCqfNQBZzINZUYaISNBgy8hXHcreLX2fSkfu7dXTQ7hILGEoXLXfjYdKewaCFNhynLomX9irsaRLawpuR7YfLCMkKHG8UoTUqGTsOcDDihvncTpzKIbGfFkEkuIS0DReIZZuSfJ1eNx2ghGq06e0/K8LIN593YY813+QBMplzkH6xDEAAAAABJRU5ErkJggg==\",vs=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEiSURBVHgB7VRLTsMwEH12PqKLSr0BPUJuQI/AHiriZYmAcoJyAyoCybIBilgibgA3yBFyhLJi0cSDjRTUtImrlg1IfRt7PDNPT34eA38dzJS8jiddLm1/8UzyPLkciKypx4YBFtwemOxVGridqiXDOoVajQNnhC1AoPuzQf+totCVbkcyyRjjB99FJN9NJJU6C53GwjCaJrfxdII1aKrjpiZ9DWH0eFjGN3cPvj4z9RgJtcMEDMuYcX6y7PpGhNvgnxOqNzRbjAnyA78hPD89Hrdb+Y/L7b3Cvwj6VxsRKldTIuaVsRBiVrdXM7ZfgFYUr8xy0Zon9qczCqOnl5zwijoVer4JnstssZyr/W3i+Lk7l8VYZT3UgjKL+DAIjlLs8AWw0WBzo+ti4wAAAABJRU5ErkJggg==\",Y=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAQVSURBVHgB7ZlNaBNbFIDvvTNp2iRNJiF971nzoHmNvF8f8tLne7WbdqkbcdFuVFAo3RQU3IkgVRD/QaEr60IRXLRrEUWhoKioXVi11KgYa2IDxfzUNvOTzL2eaVPwpya5aSapmA9uZjI5Mzn3nnPuOfcOQjVq1KjxzcEYw3D4uJHcseKIiBND+Z6eHkNhi3G/2+0WRFHUrVarHggEMqOjo7ohhlYpOBgMWiTA3fzPCc/af+941m584/FtfCqt2bAXfndDqx8YGKiYRYr+Exh51NXVJcIIO0DpKwjjTctIRXR5bpfAYg/i8Xga7tExxqZag3DI4nA4LLqbgweWV35BxCc0NN5ADf4hqWndX6B8Q2dnp5iLGVPgeTDxeDwOZA/cRQz/UVicRaiunUJy+GIymUzDhSwzelJmi/BYAIFbCMUpb4B9RLCeIY51t13e1vVwwdbW1mZMGmW1RtEd6O7uXpoyef/iT6He+1BaEzwUCoWccMEKzxJQmTrC5UJOp1MSnb+/QyUDbkUzJ4ny+gJYU4bZSodG0QqocAdyMDqiq4lj9rr0ZEdHhzo8PExLjY3qdGABsEZWP8fkF4OpVMoI8kwpQV50DICpUXlnEAhyUTwsNP76yOX9Zb3X67VDnhF4p9wqWuAzqHaeZucHHXXpUHt7u1asW3F1wAUIjb/FkWksBjmG3JFIJBZyBypQV3HlATMz6iLgVqTuLLYFhiTJ3wxZvKBLccVAxcCkm9ibLo+Pj9vAjfJ2YPXEwDJQKm9Nvh2/CqeZr8lwuZDZleUXMMvf8CnkE+GqRlGFIQThlpaWvDI8KzJmfhB/CtXVW+FoOJtPpoqJrACMDidjTx7CWd5aiSuIoUke33/mBzFjd+j87PZkcjKKCuQCriCGPGayBYz6SN0dj97f0tpqjxrVKiqQyHgsIMA06jKvlMgO6fNzR1OpZzFYL2gjIyN6MbetgjzA7sF8f9ySid2YmZlR4ALXtkz18gBms5RlD9K50GavTb7a399fVO3zxWM4ZMtWzDFEr6lqYr/HqkwalSe4C0UlboZVuAPGTkV6D1Hf3vT7/fLY2Bj3iH8OTyJbURKjNHtaSb8b/ElCsfB0XIM18YrWwkvwxEBpI8XYXV1JtVkyUwP/b2iJwOaYhgokJx64gpgQQkGhSFHCGC0EKUs/3+z7UXgMtb0M25KGy5RNeQOBRxjWrVhjtiaMyaa8gpSen5+b3umyzF7PKa5PTEyUVfEluFwoEolkWPrlETh98hUZWBKq24j2ap+aejPV19en5BKSaRmcywIAUxSFyrPRS1bHD9NgiZ9BNQ3cZYpRelF//2xHk2SZ6O3tVYxRh7Yq3xNgY2sQ6vR6cKlG+O7KHa1ocUCq8qamFPAyr5pq1KhR4zvjA87Zy1ltUhN/AAAAAElFTkSuQmCC\",ms=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgB7dhBTsJAFAbg/00x6K7BmJgIyRyBlRJXcpNyBE8AHIETyE3osktvwCRi4gKVlQtsGWd0JRlKA41T5H0bCC3Ne9PXNy8FGGOMMeYPbTvhvNWJtIaEB0RQr0/JOPecvIM/wesHeEREvbwkBA7cwZcQY4yx47Z1IyvqUnbkMkWEEhXZyGooyTLTE/MhUSIzAdhJAP96Ftp4BxrNTt8sQUQC8UlAwxeVKORYBdQVHkrI+QyEsh2KtP6+drFxkUT+mrOEaulpe/03U4/RMtXTRvO6jwrZ4RmgQaN1M7VdBxXgTGDr/G+O265zcXXbhme7dyGTREbZRMq7EB7t20a9Bm/tl4DGvVLxAh659wGxWkDnTBmmPwtNvflzEsMzZwIiqKkszZx/MGmNsuBs8La28pWahT7xoQTqvy8Gik3ww/nMveqVmoUW6tGu7sh+/w7cvlyaJd1NwftU2jgdmhLyMQsxxhhjzKcv2jWTSjKOn7QAAAAASUVORK5CYII=\",fs=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKMSURBVHgB7ZhdbtNAEMdnnCAooBKlPPCQSOYG7QMkj8kJWm6Q3iCcIM4JaE9AuQGcoOlbSh/wDbCUPPDQVhYqain2DrvBoW2UZMdu4m3V/UmRLXu82f9+zM4MgMVisVgeMggpeVmpNwBpUwjYkl+7sBh8RPAfFbD7I+gHaT5kC3DdRulnfN4BgjYsEQfFzvPCs24Q9EKOPUvAqPPR+b68XYd88FeLK02OCAcYjEY+v84r1s/iXx2OoXYGXrl19zKi72AAB7B5POz35tto+BMTaySWAQFt6Wy0AohyXTo3/xthU2fD2QPGBMgpcHUmrE18l7ECTGMFmMYKMI1xAQjYQ8JtRHoHiJ8gJUUwCnVPhofetQefS+6bHSdyvnFbMDYDMorsnQ6/euq+XHnbWavWPqrAMQyOfPlol9uOsRkgwAN1XavWW0TkyZgLLuPRq225pHxCYrVjfA/QtXgHiUb3Mr0MuN/fey+U3xJCCkHgVYpYoJnpYlS88J3osS/3yQFoyEWA7MhuXHjqhQNeoh4GvrLb4NjmIEC5yn/epiS9zORbJ6YXItmvMgMrTbMJ55RatDlxuVLjuYMZiCK+Vh0oV2sfMpdk5KZeLaxsTKtS6Dcx8T3CNP6P3m3qSdJTnUUXUzNDvQCEL3ALrpYEdiEjKtyYVZ3QLiFVShRA+5ARVWk7Hhy9n/W+XKl7cog7SWd6MrRoQpr2dQaJcvbRPokgpz0OE2AJsA4yUfztyYsPGZGnbUsVx5RDGP9GReIFwBKg/LIUoaY280xMIgAasADYoYQScTo8bCu3mMTtmWdEkSbemUfqgyxxiy1YEEoIjQ8yxABSYjihATgZ9PdkSC07TyXhPNkDi8ViuVf8Bbdo6UeXVtnMAAAAAElFTkSuQmCC\",ne=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARLSURBVHgB7ZlvTFNXFMDvax+ts1L+CMtCcIOEZMk2TTb40rEPJSMxLJvFZSVkmWP7MLOFhCWauS0mC1tIUMSUme7L3BfH/oVuGRoV/9AItikgYqHaWBsIGKsSi4UW+dPS9nmO1sRU7Ott32sx9pfc3JfLeeWee+6559zzCMmQIUOGZw6O4xjoHm+SSJ9yWEIJTr6urg4nnIXv5+XlSVmWDcnl8lBZWdlKX19fCMXIGoUpLy/PygUsg9a2S2MOi+3K+A2rzWk/dab/a/h7HrR1zc3NKbNI3P8EVp5UVVWxsMIbrLZrJ2Qy+dvRMsFg0DU8aP5sz55dwx6PZxHeCTEMI6o1JBSyzNTUFGu2WPeuNnkEtlKx6h11b8+Z/sM63S9vwORfUKvVbMRnRIHmhyX5+fkbjH2DAzKZ7DU+YbTG7Vs32+vrNEfm5uYWcYhDTQS2CI0FCGwLaTyTR9Aam15+paPfPGxubW3fDEPrKyoq8NAQ1BpxK6DVah8dmVSwbNbr27Z/dPG8afhHp9OphCE5/JaUCKRI3AoYDAZOqVSSRNlYWLjLPGAdPd1r2mk0GhUwxEZOq6Sg8gFQIHfggu0uSZL5eZ/h/Dnjvo6OA47Kykp/V1dXOFHfSIsCSAic3OOZ+VXzwVa91+tFJ19JxMnjNiGYmwh5gkD4Li588aWfTJZLYy0t+zcXFBQoIM5IaY/ctFkgmjnv7G8jQ0P6trYWp0qlCsS7ragUyAEsQ2MeIhIYO6anbx+o1247Mjs7+yB2EJ68iuoUEDOiIhg7ios3/YyRfPfuvUUQxXm3FJUPpIrsbKX2k4ZP/7LZbOthG8VUYM34wGqMj1/VaN6v6YHHlafJUG0hsTPLaHJzNm6BThpLhiobJSkGMnimpKQkpgyNApzYThzNjevXTZDCB2PJpC2Q8XFvYaFrxw7tRXgMx5KL+04cOYVSYoFAwG/5u7PzW3j0EyHjAMQxUS2A+dHExMTnb2559T2T6exNWDTeAgFNVYIR0wd8Pu/hP3/vbNXr26fhvhCA9D00MjLC+17a48Dy8tLg5OTk/q92NvS63e5lGKIqy6QtDnBc2Oe+c+eHd9Wqmu++aeppbGyMK/d5Yk4UsoIlc0uLC6f7zxm/1+naHJh5wnbBkyahxaGuzCUDOqnj2tWmL79oMJaWli65XK4gXlVJElA5MUkCz92Zg/8Z/tB3d3dPQ3UjAC1MBIAqEpME8PuXB44dP1rxYW1N8+joqAsia4DwBCcaqLaQRCIJ46UD83Y+WXTSGfdM+3bN1kNFRUVLkNuH8GgkAkNlAYVCEZj3ef/hE8Tr4SHdvrc+rq89WF1dfc9ut6+IMflEYLEyPXZ5/LLdMcVFN6xU//v/yVq4oGeDbJYQdR+hQUeWQcuBAlUTKoKTxt4M5XYIdPnwjUC+Fif+OAyWBiFPXxdZ6ZxILycPLx9p+VKTCMwqn5oyZMiQ4TnjPp8l+voRIwU9AAAAAElFTkSuQmCC\",bs=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGaSURBVHgB7djNUcJAFAfw/+IHjic6MDlJHHWwA+mADpQOpAKhA6kArEA7gA48IeIloQJzUlCT51vHg0qyogluDu93SSbZndmPt5u3AYQQQghhjzK9HE+mJxHoQhEqsCMoKdX2dncu0wqUTLVjorbFxmtOzANoKmDsACmrjX/HAxia3hs7oGJqcYwFsEUhfCXqQAghhEihkAPf9ytPc3VFwDHylS0XWtbjDI0VNF7Llgsta5U5059zIU6lz2/vAn80mfbGY9+BwUsZfb5cI29L5EKJa+CGY3pzrh6+llT9Uhx3PM8NUCCJM7A1Q23hIdFprJSvZwYF8us1oA85Iw6tn8LqvyR2IObVDzOHZ2MwuvdrsCzLLuTw9jPQ3wBYlG0bJftHzkwdIFDLdd0QFq0nPYxKCNcovZI+J0dEzQPPHcKyxA6sKT7Ip3SAR727XUb788gXLhd63lj8E8GjPuQttL5fdc++h03hcqEjbiBX7Op73XD+iDX3qk49LWRs5kK5pNMfqUePbxvIE+dCEf+bOvTcPoQQQghRQG+9ZKZ9SqhylwAAAABJRU5ErkJggg==\",ys=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJnSURBVHgB7ZndcdNAEMf/KyAG8oA7wHrJxGEyE1dAXEFCB04HoQLbHYQKgA6gApwK0AzjMeFFSgd5YCDh45bdYHlCxrZWtiWZyf1efJbW0u3tx+2tAY/H4/HcZQg5GY3ifb4XHMDxIQMNrIYIRFHgXL/ZDJM8PzQrEMdx/fvPoMuOj1EgFNDJoweuH4bhhUneIqST/3ZFH2S4h3KIHte4bVEigAFdeZQ3eWVv/M5MMi0gPt9wRDEqwDG3d5vhYJ5MpgVcYFuJIiDCYZZMtgsxl+k6/0CggywZSwxUpgAMadoUxOuMV6BqvAJV4xWomsoVkFpmIJvl0W/iF8z8Fjm5jwqRWqcvtU7vxqV3wy/xCRx9tD6jMgvoyqeTH52dd4dn56+1cHy2FUYMfmV9TmUWEHc51c/hKO6IJXo6lsJRP46I9YRme846BHEjHRDz9VgmlcDIf5+FynMhwoW4xuSI6Agzj4uXDxFtXEFj4RQZlKKABuXmBnrWg3rrr1zLIlu4AjdTpWaZ2/elRfNEOh3p1/o0mXmtlsxYH35OGEsQMIc6AU2Tkno6WIxEuhStaRa0BHGCJZis3uKTVxpfL6efDDMVEP99jyVIXUJdCQsy3vQGM+7N55O0EgO6bmot9nLptO1sPX05675sZD1pP3TTie5sN9rIQaYFVHOXY2u/jbYi0zIBBWDKQr9q6Elefo5FOxTi/9Ic60hCmFyyNK0smHZizcs/pFe5jCWmvHgfK8BcSqgSu9vhsabFcd0eYTkSrIDcG9k4LXawOpJ0wEQJcpL7D44i0JKaCfXNGt5Yyw2Px+NZD/4A1MforeHKY6oAAAAASUVORK5CYII=\",Cs=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFOSURBVHgB7ZXRTcMwEIbvnATKW9ggeSNQJLJB2IANYBMYgRFggooJKBMkEo0CT043yBsIlRw+kCPUOLVpnpD6SVHks8+/7fOdAf476DJosZBn5EG4bj9N4rnN1yrwXMlMID6a+mhF6XQaF5v8fbCwmkARvNPTuh0RGs+Dxubf7SCvZLT3s9IIxlELovMkiWtuiM48gcYpIDawH6se5UtN/IEjm8YLB//vW8RHqNt5LkMOvouvVYAnQh/zgOBW24IDnPHNYuHRAh2GszXlxvYCW7ITGC/ApUIlYA0Ev2oOPaigNz7bLRiTVyfNxxsdpmlsrTd6/MlR1JtPDKjO+e/tQwYWdMLhwG6M1bRVR4CAmSdwVr4u79q2XZrGqWMLhcBL9QciugfzYs2UlbxRNfkaHEA1+XESX/1JgKlU/flEuCAyZyy/CaqvcHnZdgzyBcdMe5IoUwPGAAAAAElFTkSuQmCC\",re=\"\"+new URL(\"../svg/like-d29429ef.svg\",import.meta.url).href,ue=\"\"+new URL(\"../svg/like-not-bb5a81f6.svg\",import.meta.url).href,ie=\"\"+new URL(\"../svg/more-503b848f.svg\",import.meta.url).href,F=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIzSURBVHgB7ZjBbtNAEIZn7EiQQyurEVIl2spHbrQHIEfzBuHICfoEqE9Q58iJ8AShb5A3aG645QCPYLXJgUOCSSUsqnqns5GqJqm9TpU4zmG+m3dn1v/OjtezCyAIgiAIQnmgqbO2V/9ApFpA6EAZIISI6A8ugpMsE8vkT0R+aeLHAsAlRS2TiXECPEJ54u9AiEzdltnXOtLLCGWBFCFgEwRBEAQhg1JqIX5pZ6NSPQzDbgQLYps6q5vPOyx+G5bPi//Jze/4qh/AglTM3boWQigCtDA3+lt7bz6hggbxig17Z1/TbEqphbi+6Sb2047JZmunfgwKWize48dWbfd1I32sNURHXoufbsXmsBf4s7Y55fTqeea+2gd9DpmEs0BV4Fua/VqtwLZbd68TOtUHmcl2VVEHUfjjV5pPzke8HFzXc0Yq/oiE0Qbnftr2ObZJ4gfi+fkoS7xmJSn0N4nbnNNf+IjaZpE/daRnba6Sf+0H4oGaw/7ZIkfK5YAE9zsIi9RpMjkJveMQYWPah06GvXM/d2xYAbWd+ikBeTPNEaJ1yKvykmflw7SqUNlVzvv8P/VKJuC4+w4mT9pTKwGZilg8vo3CIIQ5KKYWyrjP4VTxOdrH2X4UKds6mFe8pqhayOFc9+JR//NkYzzqdaubuzpoXpoTov3+z0XwqPqouHuhjPsc/TdFpHc62jPvag4uvxvLizSKqYVy7nMGl+cdnSrjsccT4e1yjh1HEARBEIR14xYQj+VueTI6XgAAAABJRU5ErkJggg==\",le=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEBSURBVHgB7ZTNjcIwEIXfhBVibykBX1abXYRICXRACdABVABUQAlQAh1QQhAKCnCx6YATCCQYbKQII/4EyQnlO81LRs8z45GBjI+HbDGJZD1H1EcC9syNsicGsXbsnw6Sk4ZHRrok2SK127Dv+2L1KOn9LSK4hQJc+9N0vmxPZyoIAume01IinMkmgXomdpiF5wl1ivEGYSgrF3ohK7E5H7gVmxte7sC6p6G+gwb0mPJEI62LYO7+e6Jj53/hRZwcxnSAYqCW/6a4kyIRhn+/l+ZXBzzbIvPOlH7EIIpkFbpqNlXjNAa1XetubhV0VzxINjMmZn2I7kabm/jZumZ8MEfrEVfliSTiiwAAAABJRU5ErkJggg==\",Is={key:0,class:\"options disabled-options\"},Bs={key:0,src:ce},Us={key:1,src:vs},hs={key:0,class:\"options disabled-options\"},Rs={key:1,class:\"options disabled-options\"},Ss={key:0,class:\"options-btn\"},ws={key:0},Es={class:\"options\"},ks={class:\"price-text\"},Ms={key:0,src:re},Qs={key:1,src:ue},Ys={key:1},Ts={key:2,class:\"options\"},Ns={key:1,class:\"options-btn\"},Xs={key:0,class:\"options\"},Vs={key:1,class:\"options\"},Ps={key:0,src:re},Js={key:1,src:ue},xs=ns({__name:\"BulkOperation\",props:{selectedRowKeys:{default:()=>[]},batch:{type:Boolean,default:!1},noSongs:{type:Boolean,default:!1},noAlbum:{type:Boolean,default:!1},album:{type:Boolean,default:!1},albumPage:{type:Boolean,default:!1},albumName:{default:\"\"},search:{type:Boolean,default:!1},playlistId:{default:\"\"},outResourceType:{default:\"\"},songs:{default:()=>[]},albumInfo:{default:()=>({id:\"\",isCallFeePay:!1,price:\"0\",priceRMB:\"0.00\",coverImg:\"\",singerImgs:\"\",albumName:\"\",singerId:\"\",singerName:\"\",originData:{}})}},emits:[\"delMusic\",\"changeRowSection\",\"collection\"],setup(ge,{expose:de,emit:pe}){const O=De(),T=ps(\"handleMusicListValue\"),R=ge,{playlistId:c,albumName:ve,selectedRowKeys:d,batch:me,noSongs:fe,noAlbum:be,album:Z,albumPage:z,search:ye,outResourceType:y,albumInfo:S}=is(R),i=g(\"\"),C=g(\"01\"),w=g(!1),I=g(!1),f=g(\"\"),G=g(\"\"),b=g(\"song\"),E=Ke(),Ce=Fe(),Ie=Oe(),{handlePlay:N,handleInsertAfter:Be}=Ze(),X=g(!1),Ue=g(localStorage.getI"
+  },
+  {
+    "url": "https://app.log.nf.migu.cn/log/h5binToKafka",
+    "method": "POST",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "resourceType": "fetch",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207430820",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "signversion": "H001",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "channel": "014X031",
+      "content-type": "application/octet-stream",
+      "sign": "062065ce5ab81f19a73d14bdca74c2f3",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "birth": "h5page",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "H5_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"成功\"}"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/webp/loading-a0e4912d.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://app.log.nf.migu.cn/log/h5binToKafka",
+    "method": "POST",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "resourceType": "fetch",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431364",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "signversion": "H001",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "channel": "014X031",
+      "content-type": "application/octet-stream",
+      "sign": "80657b8bbeb22aa8d7368908aaab2a2c",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "birth": "h5page",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "H5_migu"
+    },
+    "bodyPreview": "{\"info\":\"成功\",\"code\":\"000000\"}"
+  },
+  {
+    "url": "https://uem.migu.cn:18088/udcc/webData.html",
+    "method": "POST",
+    "status": 200,
+    "contentType": "text/plain;charset=UTF-8",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "{\"code\":200}"
+  },
+  {
+    "url": "https://uem.migu.cn:18088/udcc/webData.html",
+    "method": "POST",
+    "status": 200,
+    "contentType": "text/plain;charset=UTF-8",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "{\"code\":200}"
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/resource/content/tone_search_suggest/v1.0?text=%E5%91%A8%E6%9D%B0%E4%BC%A6",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431115",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":{\"singerList\":[{\"singerName\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"toneIdent\":1}],\"songList\":[{\"songName\":\"周杰伦邀你参加 红颜如霜挑战赛\",\"highlightStr\":[\"周杰伦\"],\"toneIdent\":1},{\"songName\":\"周杰伦《安静》\",\"highlightStr\":[\"周杰伦\"],\"toneIdent\":1}]}}"
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/bmw/album/search/v1.0?text=%E5%91%A8%E6%9D%B0%E4%BC%A6&pageNo=1&pageSize=20",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431348",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":{\"totalCount\":\"41\",\"correct\":[],\"result\":[{\"id\":\"600927015009001083\",\"resourceType\":\"5\",\"name\":\"太阳之子(周杰伦《太阳之子》)\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2026-03-25\",\"desc\":\"2026-03-25\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"600927015009000944\",\"resourceType\":\"5\",\"name\":\"最伟大的作品\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2022-07-15\",\"desc\":\"2022-07-15\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"600927015009000351\",\"resourceType\":\"5\",\"name\":\"Mojito\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2020-06-12\",\"desc\":\"2020-06-12\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"1140505221\",\"resourceType\":\"2003\",\"name\":\"圣诞星\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2023-12-21\",\"desc\":\"2023-12-21\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/d0ebff37292f4a958bb5c193310859d0.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c508\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/02c701729f0142b8b8938d8cf11eaf22.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c507\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/959ba4e19cf64d488f1f623f95892bf2.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c506\",\"webpImg\":\"\"}]},{\"id\":\"21090\",\"resourceType\":\"2003\",\"name\":\"Initial J\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2005-08-31\",\"desc\":\"2005-08-31\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/caee72a3d359479c82c529fa1f12ec3c.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6355\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/20b7f98e49e7460396114a9636cb4a18.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6354\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/8a07233d0d08473eab031a70bf2adbb3.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6352\",\"webpImg\":\"\"}],\"albumAliasName\":\"Jay Chou Greatest Hits + Original Theme Songs from\\\"INITIAL D THE MOVIE\\\"\"},{\"id\":\"1141456456\",\"resourceType\":\"2003\",\"name\":\"即兴曲\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2025-06-06\",\"desc\":\"2025-06-06\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/34e137a12c0946edb6df5649390e21ed.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac533\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/050f6bf0ae404a11a40f586e31996409.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac532\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/0499a75d21e14795a47b087f7e410cf3.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac531\",\"webpImg\":\"\"}]},{\"id\":\"1115512805\",\"resourceType\":\"2003\",\"name\":\"周杰伦魔天伦世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2016-05-10\",\"desc\":\"2016-05-10\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/1bf37c7855ca468ebf5fe713caf6ea09.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c7\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/20c72f4892524c7fa2abd5cce8ebbcee.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c5\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/2d3b9c1abd2c422a9d822dfef6cfa61d.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c4\",\"webpImg\":\"\"}],\"albumAliasName\":\"Opus Jay World Tour、魔天伦 世界巡回演唱会\"},{\"id\":\"8592\",\"resourceType\":\"2003\",\"name\":\"叶惠美\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2003-07-31\",\"desc\":\"2003-07-31\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/a64e69c4d8c54f59b580b1a25ae5ceb3.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091aa0\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/b604231d05474ddfb7a48a094cb63e37.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091a9f\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/679feb591df148ddbc1e98110cd108de.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091a9e\",\"webpImg\":\"\"}],\"albumAliasName\":\"Yeh Hui–mei\"},{\"id\":\"26187\",\"resourceType\":\"2003\",\"name\":\"The One演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2002-10-25\",\"desc\":\"2002-10-25\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/f446f925ccb1497197f8f93a30f58715.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366854\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/bca29ac81c244ee5bbc2ce74f5269fa5.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366853\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/cd5ea63c1aa24e9ea321fcd5e6c498ca.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366852\",\"webpImg\":\"\"}],\"albumAliasName\":\"\"},{\"id\":\"1125329686\",\"resourceType\":\"2003\",\"name\":\"周杰伦地表最强世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2019-11-01\",\"desc\":\"2019-11-01\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ac/8fb06e4185984082b48b8defc8643c8a.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647cdd7a06ab8ff0c8\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ae/1adee4062d7e4a3c816d57802d57c329.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647073d932ad7ffaa9\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ae/1097fc9fd50543599bcd6cd978200bd8.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647073d932ad7ffaa8\",\"webpImg\":\"\"}],\"albumAliasName\":\"JAY CHOU THE INVINCIBLE CONCERT TOUR\"},{\"id\":\"1000001899\",\"resourceType\":\"2003\",\"name\":\"Jay\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2000-11-07\",\"desc\":\"2000-11-07\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/0eb83b01c14945ceb351cc5f66be8c7d.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181e\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/261b25afc2944f10b2ffed2226a51670.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181d\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/bc4b76bb1fc04c8ba97ce06d988c957b.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181c\",\"webpImg\":\"\"}],\"albumAliasName\":\"\"},{\"id\":\"25578\",\"resourceType\":\"2003\",\"name\":\"魔杰座\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2008-10-15\",\"desc\":\"2008-10-15\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/debd0fe1ba304d0ebbe25761ba4c06e8.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf9\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/3ed1feca16064747b2040792758834a0.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf8\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/310dd6f65b6a4d9d97ed5e5123fb6f52.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf7\",\"webpImg\":\"\"}],\"albumAliasName\":\"Capricorn\"},{\"id\":\"7947\",\"resourceType\":\"2003\",\"name\":\"八度空间\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2002-07-18\",\"desc\":\"2002-07-18\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/22ab4dadcfd94d12ad8ee266d8b1e5cb.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197044\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/5d4f226a422b42dd830f4107684669ba.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197043\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/4ac58f49474747e48d7f97bc1191be1e.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197042\",\"webpImg\":\"\"}],\"albumAliasName\":\"The Eight Dimensions\"},{\"id\":\"7949\",\"resourceType\":\"2003\",\"name\":\"七里香\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2004-08-03\",\"desc\":\"2004-08-03\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/65057d42f5f247cf9fc8879cf0ec677c.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad26\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/2cfa4a5ffcf7458693a9c962fef4105b.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad25\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/098e1270d4fa4d84a8899909de009ff4.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad24\",\"webpImg\":\"\"}],\"albumAliasName\":\"Common Jasmine Orange\"},{\"id\":\"23799\",\"resourceType\":\"2003\",\"name\":\"周杰伦 2004 无与伦比 演唱会 Live CD\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2005-01-20\",\"desc\":\"2005-01-20\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/258ca1213ef64db49f4b8ecb1f124c95.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061307\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/ae0190f58ff749a1989a236cdd22f6e9.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061306\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/d00869828c2e4ca2b1ca4144ec7e7a41.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061305\",\"webpImg\":\"\"}],\"albumAliasName\":\"2004无与伦比演唱会、Jay Chou 2004 Incomparable Concert Live\"},{\"id\":\"1000002033\",\"resourceType\":\"2003\",\"name\":\"2007世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2008-01-30\",\"desc\":\"2008-01-30\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/c2597aad19c24e069b5c66c2907221b5.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da80\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/ccff479c1fac4a08884a42ac4675cc4e.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da7f\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/9c343d4b4b974440947b7e67902f529d.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da7e\",\"webpImg\":\"\"}],\""
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/resource/search/singer/v1.0?text=%E5%91%A8%E6%9D%B0%E4%BC%A6",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431349",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":[{\"resourceType\":\"2002\",\"summary\":\"　　周杰伦（Jay Chou），1979年1月18日出生于台湾省新北市，祖籍福建省泉州市永春县，中国台湾流行乐男歌手、音乐人、演员、导演、编剧，毕业于淡江中学。\\n　　2000年发行个人首张专辑《Jay》。2001年发行的专辑《范特西》奠定其融合中西方音乐的风格。2002年举行“The One”世界巡回演唱会。2003年成为美国《时代周刊》封面人物。2004年发行个人专辑《七里香》。2005年凭借动作片《头文字D》获得金马奖、金像奖最佳新人奖。2006年起连续三年获得世界音乐大奖中国区最畅销艺人奖；同年发行个人专辑《依然范特西》。2007年自编自导的文艺片《不能说的秘密》获得金马奖年度台湾杰出电影奖；同年发行个人专辑《我很忙》。2008年凭借歌曲《青花瓷》获得第19届台湾金曲奖最佳年度歌曲奖、最佳作曲人奖。\\n　　2009年入选美国CNN评出的“25位亚洲最具影响力人物”；同年凭借专辑《魔杰座》获得第20届台湾金曲奖最佳国语男歌手奖。2010年入选美国《Fast Company》评出的“全球百大创意人物”；同年发行个人专辑《跨时代》，凭借该专辑获得第22届台湾金曲奖最佳国语男歌手奖、最佳国语专辑奖 。2012年登上福布斯中国名人榜榜首。2014年发行个人首张数字专辑《哎呦，不错哦》。2023年凭借专辑《最伟大的作品》获得IFPI全球畅销专辑榜冠军。\\n　　演艺事业外，他还涉足商业、设计等领域。2007年成立杰威尔有限公司。2011年担任华硕笔电设计师。\\n　　周杰伦热心公益慈善，多次向中国内地灾区捐款捐物。2008年捐款援建希望小学。\\n　　早年经历\\n　　周杰伦出生于台湾省新北市，祖籍福建省永春县 。周杰伦4岁的时候，母亲叶惠美把他送到淡江山叶幼儿音乐班学习钢琴 。周杰伦读初中二年级时，他的父母因性格不合离婚，而周杰伦则归母亲叶惠美抚养 。中考时，周杰伦没有考上普通高中；同年，他因为擅长钢琴而被淡江中学第一届音乐班录取。高中毕业以后，他两次报考台北大学音乐系均没有被录取，于是他开始在一家餐馆打工 。\\n　　1997年9月，周杰伦在父亲的鼓励下报名参加了台北星光电视台的娱乐节目《超级新人王》，并在节目中邀人演唱了自己创作的歌曲《梦有翅膀》。当主持人吴宗宪看到这首歌曲的曲谱后，就邀请周杰伦到阿尔发音乐公司担任音乐助理 。1998年，他创作了歌曲《眼泪知道》，在公司把这首歌曲给刘德华以后却被退歌；而他为张惠妹创作的歌曲《双截棍》也被退回 。\\n　　演艺经历\\n　　2000年，在杨峻荣的推荐下，周杰伦开始演唱自己创作的歌曲；11月7日，发行首张个人专辑《Jay》，并包办全部歌曲的作曲、和声编写以及监制工作 ；该专辑融合了R&B、hip-hop等多种音乐风格 ，其中主打歌曲《星晴》获得第24届十大中文金曲优秀国语歌曲金奖 ，而周杰伦也凭借该专辑在华语乐坛受到关注，并于次年获得第12届台湾金曲奖最佳流行音乐演唱专辑奖、第12届台湾金曲奖最佳制作人提名、第12届台湾金曲奖最佳作曲人提名 。\\n　　2001年9月，周杰伦发行了国语专辑《范特西》，他除了担任专辑的制作人外，还包办了专辑中所有歌曲的作曲；该专辑是周杰伦确立其唱片风格的作品，其中结合中西方音乐元素的主打歌《双截棍》成为饶舌歌曲的代表作之一 ；该专辑发行后也让周杰伦打开东南亚市场 ，并于次年获得第13届台湾金曲奖最佳专辑制作人奖、最佳作曲人奖、最佳流行音乐专辑奖以及香港唱片销量大奖颁奖典礼十大销量国语唱片等奖项 ；10月，为李玟创作融合中西方音乐元素的歌曲《刀马旦》 ；12月24日，发行EP《Fantasy + Plus》，收录了他在桃园巨蛋演唱会上演唱的《你比从前快乐》、《蜗牛》等歌曲 ；同年，获得第19届十大劲歌金曲颁奖典礼最受欢迎唱作歌星金奖、叱咤乐坛流行榜颁奖典礼叱咤乐坛生力军男歌手金奖等奖项 。\\n　　2002年，参演个人首部电视剧《星情花园》；2月，在新加坡新达城国际会议展览中心举行演唱会；7月，发行专辑《八度空间》，除了包办专辑中所有歌曲的作曲外，他还担任专辑的制作人 ；该专辑以R&B曲风的歌曲为主，并获得g-music风云榜白金音乐奖十大金碟奖、华语流行乐传媒大奖十大华语唱片奖、新加坡金曲奖大奖年度最畅销男歌手专辑等奖项 ；9月28日，在台北体育场举行“THE ONE”演唱会 ；12月12日至16日，在香港红磡体育馆举行5场“THE ONE”演唱会 ；12月25日，在美国拉斯维加斯举办“THE ONE”演唱会；同年，获得第1届MTV日本音乐录影带大奖亚洲最杰出艺人奖、第2届全球华语歌曲排行榜最受欢迎创作歌手、第9届新加坡金曲奖亚太最受推崇男歌手等奖项 。\\n　　2003年2月，成为美国《时代周刊》亚洲版的封面人物” ；5月17日，在马来西亚吉隆坡默迪卡体育场举行“THE ONE”演唱会；7月16日，周杰伦专辑《叶惠美》中的主打歌曲《以父之名》在超过50家电台首播，并有8亿人收听，而主打歌首播的当日也被这些电台定为“周杰伦日” ；7月31日，发行专辑《叶惠美》，他不仅包办了所有歌曲的作曲，还担任专辑的制作人和造型师 ；该专辑发行一个月在亚洲的销量突破200万张 ，并于次年获得第15届金曲奖最佳流行音乐演唱专辑奖、第4届全球华语歌曲排行榜颁奖典礼年度最受欢迎专辑等奖项 ；专辑主打歌曲《东风破》是周杰伦具有代表性的中国风作品之一 ，而他亦凭借这首歌曲获得第四届华语音乐传媒大奖最佳作曲人奖 ；9月12日，在北京工人体育场举行“THE ONE”演唱会 ；11月，发行EP《寻找周杰伦》 ；12月12日，在上海体育场举办“THE ONE”演唱会，并演唱了变奏版的《双截棍》、加长版的《爷爷泡的茶》等歌曲 ；同年，出演电影处女作《寻找周杰伦》 。\\n　　2004年1月21日，首次登上央视春晚舞台，并演唱歌曲《龙拳》 ；3月，在第4届音乐风云榜中，获得台湾地区最受欢迎男歌手、年度风云大奖、年度港台及海外华人最佳制作人等奖项 ；8月3日，发行融合Hip-hop、R&B、古典音乐等曲风的专辑《七里香》 ；该专辑发行当月在亚洲的销量突破300万张 ，周杰伦也凭借这张专辑获得第16届世界音乐大奖中国区最畅销艺人奖 ，而专辑同名主打歌《七里香》则获得第27届十大中文金曲优秀流行国语歌曲奖金奖、第5届全球华语歌曲排行榜年度25大金曲等奖项 ；10月起，在台北、香港、洛杉矶、蒙特维尔等地举行“无与伦比世界巡回演唱会” 。\\n　　2005年1月11日，在第11届全球华语榜中榜颁奖盛典中，获得港台最佳男歌手、港台最受欢迎男歌手、港台最佳创作歌手等奖项 ；4月，凭借专辑《七里香》入围第16届台湾金曲奖最佳作曲人奖、最佳国语男演唱人奖、最佳流行音乐演唱专辑奖 ；6月23日，首次担任男主角的电影《头文字D》上映 ，并凭借该片获得第42届台湾电影金马奖最佳新演员奖、第25届香港电影金像奖最佳新人奖 ；7月1日，在上海体育场举行“无与伦比巡回演唱会” ；7月9日，在北京工人体育场举行“无与伦比巡回演唱会” ；11月1日，发行专辑《十一月的萧邦》，并包办了专辑中所有歌曲的作曲以及专辑的造型设计 ；该专辑发行后以4.28%的销售份额获得台湾G-MUSIC年终排行榜冠军 ；同年，周杰伦创作的歌曲《蜗牛》被收入上海中学生爱国主义歌曲推荐目录 。\\n　　2006年1月20日，发行EP《霍元甲》，主打歌《霍元甲》是李连杰主演的同名电影的主题曲 ；2月5日至6日，在日本东京举行演唱会；9月，发行专辑《依然范特西》；该专辑延续了周杰伦以往的音乐风格，并融合了中国风、RAP等曲风，其中与费玉清合唱的中国风歌曲《千里之外》获得第13届全球华语音乐榜中榜年度最佳歌曲奖、第29届十大中文金曲全国最受欢迎中文歌曲奖等奖项 ；该专辑发行后以5.34%的销售份额位列台湾五大唱片排行榜第一位 ，并获得中华音乐人交流协会年度十大优良专辑、IFPI香港唱片销量大奖最高销量国语唱片等奖项 ；12月，发行EP《黄金甲》；12月14日，周杰伦主演的古装动作片《满城尽带黄金甲》在中国内地上映，他在片中饰演武功超群的二王子元杰 ，并凭借该片获得第16届上海影评人奖最佳男演员 ；同年，获得世界音乐大奖中国区最畅销艺人奖 。\\n　　2007年1月14日，歌曲《黄金甲》获得第一届中国移动无线音乐排行榜年度盛典年度最畅销首发单曲奖。2月，首度担任导演并自导自演爱情片《不能说的秘密》 ，该片上映后获得第44届台湾电影金马奖年度台湾杰出电影、第27届香港电影金像奖最佳亚洲电影提名等奖项 ；4月，成立杰威尔音乐有限公司 ；5月，入围第18届台湾金曲奖最佳年度歌曲、最佳音乐录像带导演等奖项 ；6月，凭借单曲《霍元甲》获得第18届台湾金曲奖最佳单曲制作人奖 ；11月2日，发行专辑《我很忙》，并在专辑中首次尝试美式乡村风格 ；而周杰伦也于次年凭借专辑中的中国风歌曲《青花瓷》获得第19届台湾金曲奖最佳作曲人奖以及最佳年度歌曲奖 ；11月4日，凭借专辑《依然范特西》蝉联世界音乐大奖中国区最畅销艺人奖 ；11月24日，在上海八万人体育场举行演唱会，并在演唱会中模仿了VITAS的假声唱法 ；12月，在香港红磡体育馆举行7场“周杰伦07-08世界巡回香港站演唱会” 。\\n　　2008年1月10日，周杰伦自导自演的爱情文艺片《不能说的秘密》在韩国上映 ；该片上映12天票房达到4万人次 ；1月13日获得第二届中国移动无线音乐排行榜年度盛典年度最畅销季度金曲奖、无线音乐推广贡献杰出人物；歌曲《不能说的秘密》获得无线音乐首发劲爆金曲奖。2月6日，在央视春晚上演唱歌曲《青花瓷》 ；同年，《青花瓷》的歌词出现在山东、江苏两省的高考试题中 ；2月16日，在日本武道馆连开两场演唱会，成为继邓丽君、王菲之后第三位在武道馆开唱的华人歌手 ；7月，凭借专辑《不能说的秘密电影原声带》获得第19届金曲奖演奏类最佳专辑制作人奖 ；10月15日，发行专辑《魔杰座》，该专辑融合了嘻哈、民谣等曲风，推出首周在G-MUSIC排行榜、五大唱片排行榜上获得冠军，发行一星期在亚洲的销量突破100万张 ；11月，凭借专辑《我很忙》第四次获得世界音乐大奖中国区最畅销艺人奖 ，并成为首位连续三届获得该奖项的华人歌手 ；同年，主演爱情喜剧片《大灌篮》，在片中饰演见义勇为、好打不平的世杰 。12月28日获得第三届“音乐·爱”2008中国移动无线音乐咪咕汇最佳创作歌手、最高销量男歌手，奥运推广杰出歌手；歌曲《彩虹》获得最畅销电影金曲。\\n　　2009年5月，在昆山市体育中心体育场举行演唱会；6月，在第20届台湾金曲奖颁奖典礼上获得年度最佳歌曲奖、年度最佳音乐录影带、年度最佳国语男歌手三个奖项 ；7月，周杰伦悉尼演唱会的票房在美国公告牌上排名第二，成为该年全球单场演唱会票房收入第二名，并且打破了华人歌手在澳洲开演唱会的票房纪录 ；8月起，在佛山世纪莲体育中心体育场、沈阳奥体中心体育场等场馆举办个人巡回演唱会；12月，入选美国CNN评出的“亚洲最具影响力的25位人物” ；同年主演探险片《刺陵》，在片中饰演拥有神秘力量的古城守陵人乔飞 。\\n　　2010年2月，出演古装武侠片《苏乞儿》，在片中饰演冷酷、不苟言笑的武神 ；5月18日，发行专辑《跨时代》，并包办专辑中全部歌曲的作曲和制作；该专辑于次年获得第22届台湾金曲奖最佳国语专辑奖、中国原创音乐流行榜最优秀专辑等奖项，而周杰伦也凭借该专辑获得金曲奖最佳国语男歌手奖 ；6月，入选美国杂志《Fast Company》评出的“全球百大创意人物”，并且成为首位入榜的华人男歌手 ；8月，在一项名为“全球歌曲下载量最高歌手”（2008年年初至2010年8月10日）的调查中，周杰伦的歌曲下载量排名全球第三 ；12月，编号为257248的小行星被命名为“周杰伦星”，而周杰伦也创作了以这颗小行星为题材的歌曲《爱的飞行日记》 ；12月30日，美国古柏蒂奴市宣布把每年的12月31日设立为周杰伦日 ；同年，执导科幻剧《熊猫人》，并为该剧创作了《熊猫人》、《爱情引力》等歌曲 。\\n　　2011年1月，凭借动作片《青蜂侠》进军好莱坞，并入选美国电影网站Screen Crave评出的“十大最值得期待的新秀演员” ；2月，与科比拍摄雪碧广告以及MV，并创作了广告主题曲《天地一斗》 ；4月21日，美国《时代周刊》评选了“全球年度最具影响力人物100强”，周杰伦位列第二名 ；5月，凭借动作片《青蜂侠》获得第20届美国MTV电影大奖最佳新人提名 ；5月13日，入围第22届台湾金曲奖最佳专辑制作人奖、最佳年度歌曲、最佳作曲人奖等奖项 ；6月24日获得第五届“Give me five”2011中国移动无线音乐盛典咪咕汇无线音乐年度试听超人气男歌手、无线音乐年度搜索超人气男歌手、无线音乐年度最高销量港台男歌手，歌曲《烟花易冷》获得无线音乐年度最畅销创作金曲。11月11日，发行专辑《惊叹号！》；该专辑融合了重金属摇滚、嘻哈、R&B、jazz等音乐风格，并首次引入电子舞曲 ；同年，在洛杉矶、吉隆坡、高雄等地举行“超时代世界巡回演唱会” 。\\n　　2012年5月，位列福布斯中国名人榜第一名 ；9月22日，在新加坡F1赛道举办演唱会，成为首位在F1演出的华人歌手 ；12月8日获得第六届“感恩5000万 群星咪咕汇”2012中国移动无线音乐盛典咪咕汇年度特别贡献奖、年度最受欢迎港台男歌手，歌曲《皮影戏》获得年度最畅销金曲奖。12月28日，发行专辑《十二新作》；该专辑包括了中国风、RAP、蓝调、R&B、Jazz等曲风，主打歌曲《红尘客栈》获得第13届全球华语歌曲排行榜二十大金曲、第36届香港十大中文金曲优秀流行国语歌曲银奖等奖项 ；同年，主演枪战动作电影《逆战》，在片中饰演对错分明、具有强烈正义感的国际警务人员万飞 。\\n　　2013年5月17日，在上海奔驰文化中心举行 “魔天伦世界巡回演唱会” ；5月22日，入围第24届台湾金曲奖最佳国语专辑奖、最佳国语男歌手、最佳专辑制作人奖 ；6月1日，为动画电影《十万个冷笑话》中的角色太乙真人配音 ；6月22日，在成都市体育中心体育场举行演唱会；7月11日，自导自演的爱情片《天台爱情》上映，该片还被选为纽约亚洲电影节闭幕影片 ；9月6日至8日，在台北小巨蛋举行3场“魔天伦演唱会” 。12月7日获得2013第七届中国移动无线音乐盛典咪咕汇年度最佳歌手奖，专辑《十二新作》获得年度最畅销专辑奖。\\n　　2014年4月起，在悉尼、贵阳、上海、吉隆坡等地举行“魔天伦世界巡回演唱会” ；5月，位列福布斯中国名人榜第3名 ；11月，在动作片《惊天魔盗团2》中饰演魔术道具店的老板Li ；12月10日，发行首张个人数字音乐专辑《哎呦，不错哦》，成为首位发行数字音乐专辑的华人歌手 ；专辑中的歌曲《鞋子特大号》获得第5届全球流行音乐金榜年度二十大金曲奖 。12月13日获得2014第八届中国移动无线音乐盛典咪咕汇年度最佳人气王，歌曲《红尘客栈》获得年度最畅销10大金曲奖。\\n　　2015年，担任浙江卫视励志音乐评论节目《中国好声音第四季》的导师；4月，在第19届全球华语榜中榜暨亚洲影响力大典中，获得亚洲影响力最受欢迎全能华语艺人奖、华语乐坛跨时代实力唱作人奖；5月，在福布斯中国名人榜中排名第2位；6月27日，凭借专辑《哎呦，不错哦》获得第26届台湾金曲奖最佳国语专辑、最佳专辑制作人两项提名；9月26日，在佛山世纪莲体育中心体育场举行“魔天伦演唱会”；12月5日专辑《哎呦，不错哦》获得“咪咕音乐·乐动星声”中国移动4G第九届音乐盛典咪咕汇年度最畅销专辑奖。12月20日，在昆明拓东体育场举行“魔天伦演唱会”。\\n　　2016年3月24日，发行个人作词、作曲的单曲《英雄》，上线两周播放量突破8000万 ；6月1日，为电影《惊天魔盗团2》创作的主题曲《Now You See Me》发布 ；6月24日，发行融合古典、摇滚、嘻哈等曲风的数字专辑《周杰伦的床边故事》 ，该专辑发行两日销量突破100万张，打破数字专辑在中国内地的销售纪录 ；同日，参演的好莱坞电影《惊天魔盗团2》在中国内地上映 ；同年，举行“地表最强”世界巡回演唱会 ；7月15日起，担任浙江卫视音乐评论节目《中国新歌声》的导师 ；12月3日获得乐汇十年 趣听未来”Moto第十届音乐盛典咪咕汇十年最佳男歌手奖、十年最具影响力歌手奖、年度港台最受欢迎男歌手奖，歌曲《稻香》获得“十年十大金曲奖，歌曲《告白气球》获得年度10大金曲奖。12月23日起，由周杰伦自编自导的文艺片《不能说的秘密》而改编的同名音乐剧在北京天桥艺术中心举行全球首演，该音乐剧的作曲、作词、原著故事均由周杰伦完成。\\n　　2017年1月6日，周杰伦监制的爱情电影《一万公里的约定》在中国内地上映；1月13日，在江苏卫视推出的科学类真人秀节目《最强大脑第四季》中担任嘉宾；6月4日，获得Hito年度最佳男歌手；随后，加盟原创专业音乐节目《中国新歌声第二季》。8月9日，其专辑《周杰伦的床边故事》获得“2017华语金曲奖”颁发的“年度最佳国语专辑”奖。\\n　　2018年1月6日，在新加坡举行“地表最强2世界巡回演唱会”的首场演出；1月18日，发行其个人作词、作曲的单曲《等你下课》，该曲由周杰伦与杨瑞代共同演唱；2月15日，2018年中央电视台春节联欢晚会，周杰伦与蔡威泽表演魔术与歌曲《告白气球》，该节目在2018年央视春晚节目收视率TOP10榜单中位列第一位；5月15日，发行单曲《不爱我就拉倒》；11月21日，确认加盟由D·J·卡卢索执导的电影《极限特工4》。\\n　　2019年2月9日，在美国拉斯维加斯举行个人演唱会；7月24日，宣布“嘉年华”世界巡回演唱会于10月启动 ，该演唱会是周杰伦庆祝出道20周年的演唱会；9月16日晚11点，发行单曲《说好不哭》，该歌曲由方文山作词，周杰伦、陈信宏共同演唱；10月17日，在上海举行“嘉年华”世界巡回演唱会的首场演出；11月1日，发行“地表最强”世界巡回演唱会Live专辑。12月14日，获第十三届咪咕汇音乐盛典年度港台最受欢迎男歌手奖、歌曲《说好不哭》获年度10大金曲奖。12月15日，发行单曲《我是如此相信》。\\n　　2020年1月10日至11日，在新加坡国家体育场举行两场嘉年华世界巡回演唱会；2月24日，由周杰伦作曲、方文山作词、张学友演唱的抗击疫情公益歌曲《等风雨经过》发布；3月21日，在浙江卫视全球户外生活文化实境秀节目《周游记》中担任发起人。5月11日，参与由人民日报客户端、国家人文历史等联合发起的“致敬白衣天使”线上音乐会 。6月，发行单曲《MOJITO》。10月，监制并特别出演赛车题材电影《叱咤风云》。\\n　　2021年1月29日，获得中国歌曲TOP排行榜最佳男歌手奖；2月12日，以“云录制”形式在2021年中央广播电视总台春节联欢晚会演唱歌曲《Mojito》 ；5月12日，凭借单曲《Mojito》入围第32届台湾金曲奖最佳单曲制作人奖。\\n　　2022年5月20日至21日，周杰伦“奇迹现场重映计划”线上视频演唱会（魔天伦演唱会、地表最强演唱会）在多个平台播出；6月24日，《生死狙击2》官宣代言人为周杰伦。7月5日，专辑《最伟大的作品》开启预售预约。7月6日中午12:00，杰威尔音乐发布周杰伦新歌MV。7月15日，发行专辑《最伟大的作品》。9月，参加2022联盟嘉年华。12月16日，周杰伦加盟动感地带世界杯音乐盛典，演唱歌曲《我是如此相信》《安静》。\\n　　2023年3月，周杰伦发行的音乐专辑《最伟大的作品》获得国际唱片业协会（IFPI）发布的“2022年全球畅销专辑榜”冠军，成为首位获得该榜冠军的华语歌手；5月16日，其演唱的歌曲《最伟大的作品》获得第34届台湾金曲奖年度歌曲奖提名；8月17日-20日，在呼和浩特市举行嘉年华世界巡回演唱会；11月25日，参加的户外实境互动综艺节目《周游记2》在浙江卫视播出；12月6日，环球音乐集团与周杰伦及其经纪公司“杰威尔音乐”达成战略合作伙伴关系；12月9日，在泰国曼谷拉加曼加拉国家体育场举行“嘉年华”世界巡回演唱会；12月21日，发行音乐单曲《圣诞星》。\\n　　2024年4月，作为主要嘉宾参加说唱真人秀综艺《说唱梦工厂》；5月23日，《说唱梦工厂》上映。\\n　　影视方面\\n　　2002年，参演个人首部电视剧《星情花园》。\\n　　2003年11月13日，周杰伦客串出演的电影处女作《寻找周杰伦》上映。\\n　　2005年6月23日，首次担任男主角的电影《头文字D》上映，并凭借该片获得第42届台湾电影金马奖最佳新演员奖、第25届香港电影金像奖最佳新人奖。\\n　　2006年12月14日，周杰伦主演的古装动作片《满城尽带黄金甲》在中国内地上映，他在片中饰演武功超群的二王子元杰，并凭借该片获得第16届上海影评人奖最佳男演员，亦为电影创作了主题曲《菊花台》。\\n　　2007年2月，首度担任导演并自导自演爱情片《不能说的秘密》，该片上映后获得第44届台湾电影金马奖年度台湾杰出电影、第27届香港电影金像奖最佳亚洲电影提名等奖项。\\n　　2008年1月10日，周杰伦自导自演的爱情文艺片《不能说的秘密》在韩国上映；该片上映12天票房达到4万人次。同年，主演爱情喜剧片《大灌篮》，在片中饰演见义勇为、好打不平的世杰。\\n　　2009年，主演探险片《刺陵》，在片中饰演拥有神秘力量的古城守陵人乔飞。\\n　　2010年2月，出演古装武侠片《苏乞儿》，在片中饰演冷酷、不苟言笑的武神。同年，执导科幻剧《熊猫人》，并为该剧创作了《熊猫人》《爱情引力》等歌曲。\\n　　2011年1月，凭借动作片《青蜂侠》进军好莱坞，并入选美国电影网站Screen Crave评出的“十大最值得期待的新秀演员”。5月，凭借动作片《青蜂侠》获得第20届美国MTV电影大奖最佳新人提名。\\n　　2012年，主演枪战动作电影《逆战》，在片中饰演对错分明、具有强烈正义感的国际警务人员万飞。\\n　　2013年6月1日，为动画电影《十万个冷笑话》中的角色太乙真人配音。7月11日，自导自演的爱情片《天台爱情》上映，该片还被选为纽约亚洲电影节闭幕影片。10月4日，担任音乐爱情电影《听见下雨的声音》的音乐总监。\\n　　2014年11月，在动作片《惊天魔盗团2》中饰演魔术道具店的老板Li。\\n　　2016年6月，参演的好莱坞电影《惊天魔盗团2》在中国内地上映。12月23日起，由周杰伦自编自导的文艺片《不能说的秘密》而改编的同名音乐剧在北京天桥艺术中心举行全球首演，该音乐剧的作曲、作词、原著故事均由周杰伦完成。\\n　　2017年1月6日，周杰伦监制的爱情电影《一万公里的约定》在中国内地上映。\\n　　2018年11月21日，确认加盟由D·J·卡卢索执导的电影《极限特工4》。\\n　　2020年10月，监制并特别出演赛车题材电影《叱咤风云》。\\n　　2021年1月29日，获得中国歌曲TOP排行榜最佳男歌手奖 ；2月12日，以“云录制”形式在2021年中央广播电视总台春节联欢晚会演唱歌曲《Mojito》 ；5月12日，凭借单曲《Mojito》入围第32届台湾金曲奖最佳单曲制作人奖 。\\n　　其他领域\\n　　2002年，周杰伦创办耳机品牌“TiinLab耳一号”。\\n　　2005年，周杰伦与导演邝盛合资在台北开设古董店“Omni by JFK”。\\n　　2006年，周杰伦与其团队成立时尚潮流服装公司“PHANTACi”，同年开设主题餐厅“Mr.J义法厨房”。\\n　　2007年4月，周杰伦离开阿尔发音乐公司，开始自立门户，与方文山、杨峻荣合伙成立杰威尔音乐有限公司，主营制作、发行唱片、筹办演唱会等业务。\\n　　2011年6月，担任华硕笔电设计师。11月，入股香港文化传信集团的下属子公司Ucan。\\n　　2012年，与刘畊宏合伙开设“300壮士健身房”。\\n　　2016年4月19日，周杰伦收购曾为LMS联赛获得全球总决赛冠军的TPA战队，并将其更名为JTeam电子竞技俱乐部，并担任战队队长。同年，周杰伦将自己创办的“TiinLab耳一号”并入“1MORE万魔”耳机，并以股东身份加盟万魔声学，还参与了万魔声学的C轮融资。\\n　　2017年4月9日，周杰伦与IDG共同创立“魔杰电竞”品牌，并在深圳开设了第一家旗舰店“魔杰电竞狼域电竞馆”。\\n　　2018年8月，周杰伦与方文山加盟爱尚传媒，周杰伦出任“最强创意顾问”。\\n　　2020年8月28日，周杰伦率领自己的”超越战队”与王俊凯的“无畏战队”参加“英雄联盟9周年明星表演赛”。12月18日，周杰伦入选2020中国品牌人物500强，排名38。\\n　　2021年12月，周杰伦退出西安真爱范特西餐饮娱乐有限公司的股东行列 。\\n　　社会活动\\n　　公益活动\\n　　2003年，参与演唱公益歌曲《手牵手》，并将演唱会所用的扇子拍卖，拍卖所得捐献给天津的一家福利机构。2004年东南亚海啸期间，参加在泰国举办的“AsiaAid”慈善义演活动。\\n　　2005年3月，义卖“杰伦爱心之星”，并将拍卖款捐给儿童基金会；5月，义卖参与设计的MP3播放器。2007年，参加在台湾地区举办的“一块救一命”公益活动；同年，参加“世界展望会饥饿三十”演唱会。\\n　　2008年5月13日，向汶川地震灾区捐款50万元；同年，他又向汶川地震灾区捐款200万元，然后通过红十字会捐款50万元；此外，他还将重庆演唱会改成募捐的形式，除了将演唱会的收入全部捐献给灾区之外，还筹集超过3000万元的善款。汶川地震以后，周杰伦的捐款总额超过4200万元。2009年8月，向莫拉克台风灾区捐款200万台币，并助养了300名受灾儿童。\\n　　2010年3月，在台北走访三间不同的小学，并捐赠奖学金；4月，周杰伦与潘玮柏向青海玉树地震灾区合捐100万元；10月，参加河南青年励志创业推广活动；11月1日，参加关爱艾滋病儿童的慈善晚宴，并筹集善款1187.7万元；11月16日，参加“不吸烟、做自己”活动，并与外婆一起担任义工以及合拍公益广告；12月，参加由宋庆龄基金会举办的慈善晚宴，并向宋庆龄慈善基金会捐款150万元。\\n　　2011年，与科比·布莱恩特合作进行明星慈善赛，并将门票收入2185728元捐给中国青少年基金会；同年，将歌曲《天地一斗》的下载收入捐献给中国希望工程；2月，与林义杰等人共同发起“奔向丝路拥抱和谐”公益活动。\\n　　2012年，前往捐助的湖南省汨罗市智峰乡希望小学，并捐赠一架电子钢琴和20个篮球；5月，与方文山、林俊杰等艺人共同发起“爱正版购自由”主题公益活动。\\n　　2013年11月，参加“我在·爱在”公益之夜慈善拍卖活动。2014年3月，参加第五届“爱奇儿日”公益活动；6月，参加国家禁毒委、中国禁毒基金会等联合发起的公益宣传活动“禁毒之战2014”；8月4日，通过中国扶贫基金会向鲁甸地震灾区捐款50万元，成为首位向鲁甸地震灾区捐款的中国台湾艺人；同年，在高雄发生气爆时，他捐出200万台币给殉职警义消家属。\\n　　2015年6月，参加富邦慈善基金会举办的“用爱心做朋友”助学公益活动；7月，向新北市“八仙粉尘气爆救助项目”捐款100万台币；8月，参加公益篮球夏令营活动。\\n　　2016年2月，向台湾省高雄市地震灾区捐款200万台币；将签名吉他捐赠给天使心家族社会福利基金会，用于慈善拍卖；8月，周杰伦为野生救援组织拍摄了4部公益广告片。\\n　　2020年1月30日，周杰伦与妻子昆凌在新冠疫情期间，通过湖北省慈善总会向防疫一线捐赠300万元；2月23日，周杰伦作曲的抗击疫情公益歌曲《等风雨经过》发行；11月22日，与妻子昆凌和女儿以及刘畊宏参加爱心搬运公益活动。\\n　　2021年7月，周杰伦与昆凌向河南捐款300万元。\",\"singerId\":\"112\",\"singer\":\"周杰伦\",\"type\":\"1\",\"imgs\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/73263a79db124bc5b554541813652daa.webp\",\"imgOri\":\"\",\"fileId\":\"69c28dfa5a19df7523eea121\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"imgOri\":\"\",\"fileId\":\"69c28dfa5a19df7523eea122\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://"
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/resource/song/item/search/v1.0?text=%E5%91%A8%E6%9D%B0%E4%BC%A6&pageNo=1&pageSize=20",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431351",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "[{\"resourceType\":\"2\",\"contentId\":\"600929000000096577\",\"songId\":\"1140505222\",\"songName\":\"圣诞星（feat. 杨瑞代）\",\"mvId\":\"600906000000423829\",\"mvCopyrightType\":1,\"ringToneId\":\"600929000000096575\",\"ringCopyrightId\":\"60054704965\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"i24\",\"a24\"],\"songPinyin\":\"shengdanxing\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"2925089\",\"asize\":\"2925089\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"7312407\",\"asize\":\"7312407\",\"iformat\":\"020010\",\"aformat\":\"020010\"},{\"resourceType\":\"E\",\"formatType\":\"SQ\",\"showTags\":[\"vip\"],\"isize\":\"20022015\",\"asize\":\"19853411\",\"iformat\":\"011003\",\"aformat\":\"011002\"},{\"resourceType\":\"2\",\"formatType\":\"ZQ24\",\"showTags\":[\"vip\"],\"isize\":\"37564009\",\"asize\":\"37059571\",\"iformat\":\"011006\",\"aformat\":\"011005\"}],\"duration\":182,\"playNumDesc\":\"1412.8万\",\"copyrightId\":\"60054704965\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"1140505221\",\"album\":\"圣诞星\",\"albumPinyin\":\"shengdanxing\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/d0ebff37292f4a958bb5c193310859d0.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/02c701729f0142b8b8938d8cf11eaf22.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/959ba4e19cf64d488f1f623f95892bf2.webp\",\"downloadTags\":[\"pay\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/2t/1l/38a861e9806641448f8cab425b1f2b18\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/2t/1l/e90d83efd6554e2880f2275780691718\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600929000000096576\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"59020\",\"audioBook\":\"0\",\"productAuthorizeUsage\":\"001|002|003|004|005|006|007|008|009|010|011|012|014|015|013|016|017|018|019|020|021|022|023|027|030|031|028|029|024|025|026\",\"ugcAuthorList\":[]},{\"resourceType\":\"2\",\"contentId\":\"600902000006889294\",\"songId\":\"6868\",\"songName\":\"我的地盘\",\"mvId\":\"600906000000389834\",\"mvCopyrightType\":1,\"haveShockRing\":1,\"showTags\":[\"vip\",\"i24\",\"a24\"],\"songPinyin\":\"wodedipan\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"3916071\",\"asize\":\"3916071\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"9789861\",\"asize\":\"9789861\",\"iformat\":\"020010\",\"aformat\":\"020010\"},{\"resourceType\":\"E\",\"formatType\":\"SQ\",\"showTags\":[\"vip\"],\"isize\":\"29444071\",\"asize\":\"29157167\",\"iformat\":\"011003\",\"aformat\":\"011002\"},{\"resourceType\":\"2\",\"formatType\":\"ZQ24\",\"showTags\":[\"vip\"],\"isize\":\"54662141\",\"asize\":\"53929288\",\"iformat\":\"011006\",\"aformat\":\"011005\"}],\"duration\":245,\"playNumDesc\":\"5569.9万\",\"copyrightId\":\"60054701941\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"7949\",\"album\":\"七里香\",\"albumPinyin\":\"qilixiang\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/65057d42f5f247cf9fc8879cf0ec677c.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/2cfa4a5ffcf7458693a9c962fef4105b.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/098e1270d4fa4d84a8899909de009ff4.webp\",\"downloadTags\":[\"pay\",\"vip\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/23/52/9z\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/23/52/a0\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600902000006889293\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"96075\",\"audioBook\":\"0\",\"productAuthorizeUsage\":\"001|002|003|004|005|006|007|008|009|010|011|012|014|015|013|016|017|018|019|020|021|022|023|027|030|031|028|029|024|025|026\",\"ugcAuthorList\":[]},{\"resourceType\":\"2\",\"contentId\":\"600902000006889358\",\"songId\":\"461\",\"songName\":\"东风破\",\"mvId\":\"600906000000389814\",\"mvCopyrightType\":1,\"ringToneId\":\"600902000006889356\",\"ringCopyrightId\":\"60054701925\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"hq\"],\"songPinyin\":\"dongfengpo\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"5048322\",\"asize\":\"5048322\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"12620488\",\"asize\":\"12620488\",\"iformat\":\"020010\",\"aformat\":\"020010\"}],\"duration\":315,\"playNumDesc\":\"2.0亿\",\"copyrightId\":\"60054701925\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"8592\",\"album\":\"叶惠美\",\"albumPinyin\":\"yehuimei\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/a64e69c4d8c54f59b580b1a25ae5ceb3.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/b604231d05474ddfb7a48a094cb63e37.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/679feb591df148ddbc1e98110cd108de.webp\",\"downloadTags\":[\"pay\",\"vip\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/nv/faf3f262a3314bf5b5fe370ea8823d61\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/nv/1f7037a162bd4a65bca4cd8df3bb9791\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600902000006889357\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"178078\",\"audioBook\":\"0\"},{\"resourceType\":\"2\",\"contentId\":\"600902000006889498\",\"songId\":\"2446\",\"songName\":\"星晴\",\"mvId\":\"600906000000389537\",\"mvCopyrightType\":1,\"ringToneId\":\"600902000006889496\",\"ringCopyrightId\":\"60054701890\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"i24\",\"a24\"],\"songPinyin\":\"xingqing\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"4152218\",\"asize\":\"4152218\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"10380228\",\"asize\":\"10380228\",\"iformat\":\"020010\",\"aformat\":\"020010\"},{\"resourceType\":\"E\",\"formatType\":\"SQ\",\"showTags\":[\"vip\"],\"isize\":\"28269814\",\"asize\":\"28122495\",\"iformat\":\"011003\",\"aformat\":\"011002\"},{\"resourceType\":\"2\",\"formatType\":\"ZQ24\",\"showTags\":[\"vip\"],\"isize\":\"54789351\",\"asize\":\"54121268\",\"iformat\":\"011006\",\"aformat\":\"011005\"}],\"duration\":259,\"playNumDesc\":\"1.8亿\",\"copyrightId\":\"60054701890\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"1000001899\",\"album\":\"Jay\",\"albumPinyin\":\"Jay\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/0eb83b01c14945ceb351cc5f66be8c7d.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/261b25afc2944f10b2ffed2226a51670.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/bc4b76bb1fc04c8ba97ce06d988c957b.webp\",\"downloadTags\":[\"pay\",\"vip\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4g/nc/dc44aa6617614b938a39d9c3967a9cdf\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4g/nc/6406d41f959c484f9b0007b7b70c3635\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600902000006889497\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"96061\",\"audioBook\":\"0\",\"productAuthorizeUsage\":\"001|002|003|004|005|006|007|008|009|010|011|012|014|015|013|016|017|018|019|020|021|022|023|027|030|031|028|029|024|025|026\",\"ugcAuthorList\":[]},{\"resourceType\":\"2\",\"contentId\":\"600919000004112381\",\"songId\":\"1140737137\",\"songName\":\"东风破(Album Version)\",\"mvCopyrightType\":0,\"ringToneId\":\"600919000004112379\",\"ringCopyrightId\":\"60054704382\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"isq\",\"asq\"],\"songPinyin\":\"dongfengpo\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"5011542\",\"asize\":\"5011542\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"12528538\",\"asize\":\"12528538\",\"iformat\":\"020010\",\"aformat\":\"020010\"},{\"resourceType\":\"E\",\"formatType\":\"SQ\",\"showTags\":[\"vip\"],\"isize\":\"35299176\",\"asize\":\"34960521\",\"iformat\":\"011003\",\"aformat\":\"011002\"}],\"duration\":313,\"playNumDesc\":\"280.0万\",\"copyrightId\":\"60054704382\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"1140736658\",\"album\":\"星座圣典\",\"albumPinyin\":\"xingzuoshengdian\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/e3/d535b330118d4e7d895884efdefbe382.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/e3/835d4b97192f408a892aee88a5ba9e9a.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/e3/0fbe247474fa4f6980d6349bac67c8be.webp\",\"downloadTags\":[\"pay\",\"vip\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/2f/mo/2h\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/2f/mo/2i\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600919000004112380\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"69075\",\"audioBook\":\"0\",\"productAuthorizeUsage\":\"001|002|003|004|005|006|007|008|009|010|011|012|014|015|013|016|017|018|019|020|021|022|023|027|030|031|028|029|024|025|026\",\"ugcAuthorList\":[]},{\"resourceType\":\"2\",\"contentId\":\"600919000004116165\",\"songId\":\"1115764399\",\"songName\":\"简单爱\",\"mvId\":\"600906000000389832\",\"mvCopyrightType\":1,\"ringToneId\":\"600919000004116163\",\"ringCopyrightId\":\"60054704387\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"isq\",\"asq\"],\"songPinyin\":\"jiandanai\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"4337792\",\"asize\":\"4337792\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"10844163\",\"asize\":\"10844163\",\"iformat\":\"020010\",\"aformat\":\"020010\"},{\"resourceType\":\"E\",\"formatType\":\"SQ\",\"showTags\":[\"vip\"],\"isize\":\"32641569\",\"asize\":\"32429222\",\"iformat\":\"011003\",\"aformat\":\"011002\"}],\"duration\":271,\"playNumDesc\":\"2.4亿\",\"copyrightId\":\"60054704387\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"7948\",\"album\":\"范特西\",\"albumPinyin\":\"fantexi\",\"img1\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5w/p6/87f56b4e673846c093084166cb03a5f3.webp\",\"img2\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5w/p6/fbf00e3d96cd47a6b367218cedcb708b.webp\",\"img3\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5w/p6/bbb92a1f71344c15be758e1835d7954e.webp\",\"downloadTags\":[\"pay\",\"vip\"],\"singerList\":[{\"id\":\"112\",\"name\":\"周杰伦\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/180c79991fbb4dfb8e664adc2befc0b4.webp\",\"nameSpelling\":\"zhoujielun\"}],\"ext\":{\"lrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4g/nd/86ea0b26f7a6446e88e549e4b331bb36\",\"mrcUrl\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4g/nd/9709b97ff2be4158a1aa3b21fd89f720\",\"trcUrl\":\"\"},\"foreverListenFlag\":\"0\",\"foreverListen\":false,\"shockRingId\":\"600919000004116164\",\"hasAssociatedRing\":true,\"chorusStartTime\":\"66057\",\"audioBook\":\"0\",\"productAuthorizeUsage\":\"001|002|003|004|005|006|007|008|009|010|011|012|014|015|013|016|017|018|019|020|021|022|023|027|030|031|028|029|024|025|026\",\"ugcAuthorList\":[]},{\"resourceType\":\"2\",\"contentId\":\"600902000006889378\",\"songId\":\"1525\",\"songName\":\"最后的战役\",\"mvId\":\"600906000000389839\",\"mvCopyrightType\":1,\"ringToneId\":\"600902000006889376\",\"ringCopyrightId\":\"60054701920\",\"haveShockRing\":1,\"showTags\":[\"vip\",\"hq\"],\"songPinyin\":\"zuihoudezhanyi\",\"audioFormats\":[{\"resourceType\":\"2\",\"formatType\":\"PQ\",\"showTags\":[\"vip\"],\"isize\":\"4020560\",\"asize\":\"4020560\",\"iformat\":\"020007\",\"aformat\":\"020007\"},{\"resourceType\":\"2\",\"formatType\":\"HQ\",\"showTags\":[\"vip\"],\"isize\":\"10051084\",\"asize\":\"10051084\",\"iformat\":\"020010\",\"aformat\":\"020010\"}],\"duration\":251,\"playNumDesc\":\"8962.4万\",\"copyrightId\":\"60054701920\",\"copyrightType\":1,\"restrictType\":1,\"albumId\":\"7947\",\"album\":\"八度空间\",\"albumPinyin\":\"badukongjian\",\"img1\":\"https://d.musicapp.migu.cn/da"
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/v1.0/content/search_all.do?text=%E5%91%A8%E6%9D%B0%E4%BC%A6&pageNo=1&pageSize=20&searchSwitch={%22songlist%22:+1}",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207431348",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"成功\",\"songListResultData\":{\"totalCount\":\"200\",\"correct\":[],\"result\":[{\"id\":\"233754996\",\"resourceType\":\"2021\",\"name\":\"周杰伦精选100首：青春百听不厌\",\"userId\":\"93e4060b-a518-4ae5-ac1d-11805d03b813\",\"musicNum\":\"100\",\"keepNum\":\"876\",\"playNum\":\"1481809\",\"shareNum\":\"20\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/op/e884a1a5e3ee497ab73c43c983faf6af.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233585566\",\"resourceType\":\"2021\",\"name\":\"晴天雨天，都是有周杰伦彩铃的每一天\",\"userId\":\"3dca0ae4-28f3-4816-a738-bc7bae966903\",\"musicNum\":\"23\",\"keepNum\":\"129\",\"playNum\":\"1207789\",\"shareNum\":\"75\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"人气\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oq/3ad0e75f9e4f42589fa69ce0318e2e33.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233541596\",\"resourceType\":\"2021\",\"name\":\"无与伦比！周杰伦情歌精选\",\"userId\":\"0b6293aa-90fb-40eb-b602-27a38664a9c3\",\"musicNum\":\"50\",\"keepNum\":\"236\",\"playNum\":\"1324741\",\"shareNum\":\"284\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"情歌\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/on/e85bd9e55c6d4d7eb550f1fee7215849.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233533414\",\"resourceType\":\"2021\",\"name\":\"周杰伦x方文山x林迈可：华语金曲制造机\",\"userId\":\"9c3aba19-a1c5-4d30-8ac1-aa21a36d2720\",\"musicNum\":\"21\",\"keepNum\":\"55\",\"playNum\":\"694358\",\"shareNum\":\"90\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oo/f86ace9110b9420c87d86916df1e1d99.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233531254\",\"resourceType\":\"2021\",\"name\":\"盘点周杰伦的国风「Jay」作\",\"userId\":\"dafdf379-4f25-4000-9c50-45087814095d\",\"musicNum\":\"24\",\"keepNum\":\"96\",\"playNum\":\"618287\",\"shareNum\":\"22\",\"priority\":\"0\",\"ts\":[\"中国风\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/on/e6f6155b2d2c49569a6a713a746981aa.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233542035\",\"resourceType\":\"2021\",\"name\":\"不止作曲封神｜周杰伦独立作词作品精选\",\"userId\":\"b9859fb9-5ad2-4e75-997b-6b77104cb518\",\"musicNum\":\"41\",\"keepNum\":\"62\",\"playNum\":\"580761\",\"shareNum\":\"237\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oo/d1aaa12497f54d86b58c7b4d0c0ff565.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"231760782\",\"resourceType\":\"2021\",\"name\":\"周杰伦正序：青春从“Jay”开始\",\"userId\":\"051c8f0f-c349-43b0-b0e1-7c1150593db9\",\"musicNum\":\"195\",\"keepNum\":\"1950\",\"playNum\":\"2880444\",\"shareNum\":\"615\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"00年代\",\"金曲\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/o7/04c4e627b4fe4e11ad514cea9fd5a790.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228758216\",\"resourceType\":\"2021\",\"name\":\"青春的BGM是周杰伦给的！\",\"userId\":\"e987dbe1-32ef-4d95-8916-44f98d02962b\",\"musicNum\":\"31\",\"keepNum\":\"119\",\"playNum\":\"1696774\",\"shareNum\":\"38\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/kz/a4503495ba874c0b9cf6bf1db8ba9e87.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228757721\",\"resourceType\":\"2021\",\"name\":\"你因为哪句歌词爱上周杰伦？\",\"userId\":\"e3b0d3dc-1dd2-4328-ae67-db51a9b1e365\",\"musicNum\":\"49\",\"keepNum\":\"65\",\"playNum\":\"1524524\",\"shareNum\":\"209\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/kz/a466b376f73b41a1aa305858e11298bf.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"231146988\",\"resourceType\":\"2021\",\"name\":\"双J交响丨周杰伦×林俊杰开口就是黄金时代\",\"userId\":\"7d428135-f0b9-4428-a956-da0bba8b1add\",\"musicNum\":\"100\",\"keepNum\":\"433\",\"playNum\":\"1004636\",\"shareNum\":\"300\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/nx/b08765087467462daf353c3766b90b33.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227985496\",\"resourceType\":\"2021\",\"name\":\"周杰伦|听多少遍反方向的钟才能回到过去\",\"userId\":\"7c144d56-dc50-4392-a02e-f80337237f79\",\"musicNum\":\"24\",\"keepNum\":\"92\",\"playNum\":\"1306767\",\"shareNum\":\"225\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"90后\",\"00后\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/bb/4792f5d7f29c4a1e82f77758ca55607b.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227925689\",\"resourceType\":\"2021\",\"name\":\"周杰伦|哪一首是你的青春？\",\"userId\":\"b9a656e9-1349-4655-82f0-6cdc06e06b15\",\"musicNum\":\"30\",\"keepNum\":\"22\",\"playNum\":\"1080470\",\"shareNum\":\"20\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"青春校园\",\"感动\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/b7/d9d82ebb51ec4387886e647c2c63bd96_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228871226\",\"resourceType\":\"2021\",\"name\":\"周杰伦 · 你出现在我「青春」的每一页\",\"userId\":\"7d2c6b41-b61f-4db0-8d8f-97d218b403b3\",\"musicNum\":\"182\",\"keepNum\":\"729\",\"playNum\":\"2022181\",\"shareNum\":\"190\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/lf/2dffd31d3dbe492b8c61e12466d28e2b.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227870629\",\"resourceType\":\"2021\",\"name\":\"盲盒寻宝! 挖掘周杰伦优质宝藏\",\"userId\":\"e126ac64-ab51-4c76-b57d-baabbc94d03a\",\"musicNum\":\"30\",\"keepNum\":\"53\",\"playNum\":\"542720\",\"shareNum\":\"182\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/b0/24bdf298cab24f1eba5cb56e18190751.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227870628\",\"resourceType\":\"2021\",\"name\":\"有一种经典叫龙卷风 | 我们的青春周杰伦\",\"userId\":\"32b00655-c5e5-4c49-849a-294f56a4fc66\",\"musicNum\":\"20\",\"keepNum\":\"83\",\"playNum\":\"736354\",\"shareNum\":\"273\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/az/2d32c137737644f3b8ee48f67c138a32_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227603324\",\"resourceType\":\"2021\",\"name\":\"「全糖」周杰伦甜蜜情歌\",\"userId\":\"32b00655-c5e5-4c49-849a-294f56a4fc66\",\"musicNum\":\"22\",\"keepNum\":\"82\",\"playNum\":\"934884\",\"shareNum\":\"1361\",\"priority\":\"0\",\"ts\":[\"国语\",\"甜蜜\",\"情歌\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/ah/a8c651a2fec842b7acaab0ffc4925fc6.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227603319\",\"resourceType\":\"2021\",\"name\":\"校园青春记忆总会有一首周杰伦\",\"userId\":\"8e657a89-cf70-428e-844a-52b63addb34c\",\"musicNum\":\"30\",\"keepNum\":\"77\",\"playNum\":\"908559\",\"shareNum\":\"1561\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"青春校园\",\"感动\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/ak/dad52c46f8b9460988497624711e40c8.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227265004\",\"resourceType\":\"2021\",\"name\":\"过耳难忘 | 有一种品质叫周杰伦作曲\",\"userId\":\"001166fb-784d-45d1-bb28-0b7450f7f6ab\",\"musicNum\":\"36\",\"keepNum\":\"199\",\"playNum\":\"780240\",\"shareNum\":\"2181\",\"priority\":\"0\",\"ts\":[\"国语\",\"曲作人\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a3/e42cfa11d28744908bd2b6feb7fd4843.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227127922\",\"resourceType\":\"2021\",\"name\":\"周杰伦 | 90后的青春回忆\",\"userId\":\"15574164756480226228504\",\"musicNum\":\"24\",\"keepNum\":\"146\",\"playNum\":\"1620174\",\"shareNum\":\"1426\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"治愈\",\"90后\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a1/755631a36a7b48b7876b7b1fb5b65b6f_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227092165\",\"resourceType\":\"2021\",\"name\":\"那些年，我们一起听过的周杰伦\",\"userId\":\"16125015-a3f8-420c-aac9-83acc1a8cdab\",\"musicNum\":\"189\",\"keepNum\":\"159\",\"playNum\":\"861996\",\"shareNum\":\"1710\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a2/44ae835f886f4387b2dcfe911456ba79.webp\",\"highlightStr\":[\"周杰伦\"]}]},\"bestShowResultToneData\":{}}"
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5l/4k/73263a79db124bc5b554541813652daa.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5h/lm/6e01adfc489548d89b58bf7eb5fae4c9.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/png/empty-53e944c6.png",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/png",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/svg/selection-336beafd.svg",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/svg+xml",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "<svg width=\"25\" height=\"24\" viewBox=\"0 0 25 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g id=\"&#233;&#128;&#137;&#230;&#139;&#169;\">\n<rect id=\"Rectangle 141909\" x=\"4.25\" y=\"3.75\" width=\"16.5\" height=\"16.5\" rx=\"4\" fill=\"#FF2667\"/>\n<path id=\"Vector 608\" d=\"M9.5 12L11.75 14.25L15.875 9.75\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n</svg>\n"
+  },
+  {
+    "url": "https://music.migu.cn/v5/static/svg/selection-not-91456de1.svg",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/svg+xml",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/v5/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "bodyPreview": "<svg width=\"25\" height=\"24\" viewBox=\"0 0 25 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"4.85\" y=\"4.35\" width=\"15.3\" height=\"15.3\" rx=\"3.4\" stroke=\"#9397A4\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n"
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/bmw/album/search/v1.0?text=%E5%91%A8%E6%9D%B0%E4%BC%A6&pageNo=1&pageSize=20",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207433162",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":{\"totalCount\":\"41\",\"correct\":[],\"result\":[{\"id\":\"600927015009001083\",\"resourceType\":\"5\",\"name\":\"太阳之子(周杰伦《太阳之子》)\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2026-03-25\",\"desc\":\"2026-03-25\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/column/00/1w/w1/6bb8f6661fe9457d99425b16738335b9.webp\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"600927015009000944\",\"resourceType\":\"5\",\"name\":\"最伟大的作品\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2022-07-15\",\"desc\":\"2022-07-15\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/f8f365e99d809b5fa6647c14636b7c9b/bf864378737df5883a0c5e8952efb05f\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"600927015009000351\",\"resourceType\":\"5\",\"name\":\"Mojito\",\"type\":\"2\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2020-06-12\",\"desc\":\"2020-06-12\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"http://d.musicapp.migu.cn/prod/file-service/file-down01/bcb5ddaf77828caee4eddc172edaa105/75fbaecd153518ccd352ef1d8ad84d77/79710517cf965d9903a7f2465766f039\",\"imgOri\":\"\",\"webpImg\":\"\"}]},{\"id\":\"1140505221\",\"resourceType\":\"2003\",\"name\":\"圣诞星\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2023-12-21\",\"desc\":\"2023-12-21\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/d0ebff37292f4a958bb5c193310859d0.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c508\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/02c701729f0142b8b8938d8cf11eaf22.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c507\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/959ba4e19cf64d488f1f623f95892bf2.webp\",\"imgOri\":\"\",\"fileId\":\"6a0374013f17d2065212c506\",\"webpImg\":\"\"}]},{\"id\":\"21090\",\"resourceType\":\"2003\",\"name\":\"Initial J\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2005-08-31\",\"desc\":\"2005-08-31\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/caee72a3d359479c82c529fa1f12ec3c.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6355\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/20b7f98e49e7460396114a9636cb4a18.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6354\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5u/fr/8a07233d0d08473eab031a70bf2adbb3.webp\",\"imgOri\":\"\",\"fileId\":\"6a0fbaca4de9da12f99e6352\",\"webpImg\":\"\"}],\"albumAliasName\":\"Jay Chou Greatest Hits + Original Theme Songs from\\\"INITIAL D THE MOVIE\\\"\"},{\"id\":\"1141456456\",\"resourceType\":\"2003\",\"name\":\"即兴曲\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2025-06-06\",\"desc\":\"2025-06-06\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/34e137a12c0946edb6df5649390e21ed.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac533\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/050f6bf0ae404a11a40f586e31996409.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac532\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5i/1y/0499a75d21e14795a47b087f7e410cf3.webp\",\"imgOri\":\"\",\"fileId\":\"6948ddb413a1cd1d5a3ac531\",\"webpImg\":\"\"}]},{\"id\":\"1115512805\",\"resourceType\":\"2003\",\"name\":\"周杰伦魔天伦世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2016-05-10\",\"desc\":\"2016-05-10\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/1bf37c7855ca468ebf5fe713caf6ea09.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c7\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/20c72f4892524c7fa2abd5cce8ebbcee.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c5\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/2d3b9c1abd2c422a9d822dfef6cfa61d.webp\",\"imgOri\":\"\",\"fileId\":\"69b7825d2065ad3c493c04c4\",\"webpImg\":\"\"}],\"albumAliasName\":\"Opus Jay World Tour、魔天伦 世界巡回演唱会\"},{\"id\":\"8592\",\"resourceType\":\"2003\",\"name\":\"叶惠美\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2003-07-31\",\"desc\":\"2003-07-31\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/a64e69c4d8c54f59b580b1a25ae5ceb3.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091aa0\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/b604231d05474ddfb7a48a094cb63e37.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091a9f\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/679feb591df148ddbc1e98110cd108de.webp\",\"imgOri\":\"\",\"fileId\":\"67da6603800b50234b091a9e\",\"webpImg\":\"\"}],\"albumAliasName\":\"Yeh Hui–mei\"},{\"id\":\"26187\",\"resourceType\":\"2003\",\"name\":\"The One演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2002-10-25\",\"desc\":\"2002-10-25\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/f446f925ccb1497197f8f93a30f58715.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366854\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/bca29ac81c244ee5bbc2ce74f5269fa5.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366853\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/cd5ea63c1aa24e9ea321fcd5e6c498ca.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824c6b30402a0c366852\",\"webpImg\":\"\"}],\"albumAliasName\":\"\"},{\"id\":\"1125329686\",\"resourceType\":\"2003\",\"name\":\"周杰伦地表最强世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2019-11-01\",\"desc\":\"2019-11-01\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ac/8fb06e4185984082b48b8defc8643c8a.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647cdd7a06ab8ff0c8\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ae/1adee4062d7e4a3c816d57802d57c329.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647073d932ad7ffaa9\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ae/1097fc9fd50543599bcd6cd978200bd8.webp\",\"imgOri\":\"\",\"fileId\":\"67da92647073d932ad7ffaa8\",\"webpImg\":\"\"}],\"albumAliasName\":\"JAY CHOU THE INVINCIBLE CONCERT TOUR\"},{\"id\":\"1000001899\",\"resourceType\":\"2003\",\"name\":\"Jay\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2000-11-07\",\"desc\":\"2000-11-07\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/0eb83b01c14945ceb351cc5f66be8c7d.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181e\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/261b25afc2944f10b2ffed2226a51670.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181d\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/bc4b76bb1fc04c8ba97ce06d988c957b.webp\",\"imgOri\":\"\",\"fileId\":\"67da660244dde3031777181c\",\"webpImg\":\"\"}],\"albumAliasName\":\"\"},{\"id\":\"25578\",\"resourceType\":\"2003\",\"name\":\"魔杰座\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2008-10-15\",\"desc\":\"2008-10-15\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/debd0fe1ba304d0ebbe25761ba4c06e8.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf9\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/3ed1feca16064747b2040792758834a0.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf8\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/ai/310dd6f65b6a4d9d97ed5e5123fb6f52.webp\",\"imgOri\":\"\",\"fileId\":\"67da924e719a0d3fd4a10bf7\",\"webpImg\":\"\"}],\"albumAliasName\":\"Capricorn\"},{\"id\":\"7947\",\"resourceType\":\"2003\",\"name\":\"八度空间\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2002-07-18\",\"desc\":\"2002-07-18\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/22ab4dadcfd94d12ad8ee266d8b1e5cb.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197044\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/5d4f226a422b42dd830f4107684669ba.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197043\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/4ac58f49474747e48d7f97bc1191be1e.webp\",\"imgOri\":\"\",\"fileId\":\"67da65fe084677431d197042\",\"webpImg\":\"\"}],\"albumAliasName\":\"The Eight Dimensions\"},{\"id\":\"7949\",\"resourceType\":\"2003\",\"name\":\"七里香\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2004-08-03\",\"desc\":\"2004-08-03\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/65057d42f5f247cf9fc8879cf0ec677c.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad26\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/2cfa4a5ffcf7458693a9c962fef4105b.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad25\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/098e1270d4fa4d84a8899909de009ff4.webp\",\"imgOri\":\"\",\"fileId\":\"668b830f58e78f2107acad24\",\"webpImg\":\"\"}],\"albumAliasName\":\"Common Jasmine Orange\"},{\"id\":\"23799\",\"resourceType\":\"2003\",\"name\":\"周杰伦 2004 无与伦比 演唱会 Live CD\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2005-01-20\",\"desc\":\"2005-01-20\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/258ca1213ef64db49f4b8ecb1f124c95.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061307\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/ae0190f58ff749a1989a236cdd22f6e9.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061306\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/d00869828c2e4ca2b1ca4144ec7e7a41.webp\",\"imgOri\":\"\",\"fileId\":\"69b782447b8a3648ce061305\",\"webpImg\":\"\"}],\"albumAliasName\":\"2004无与伦比演唱会、Jay Chou 2004 Incomparable Concert Live\"},{\"id\":\"1000002033\",\"resourceType\":\"2003\",\"name\":\"2007世界巡回演唱会\",\"type\":\"1\",\"singer\":\"周杰伦\",\"highlightStr\":[\"周杰伦\"],\"publishDate\":\"2008-01-30\",\"desc\":\"2008-01-30\",\"imgItems\":[{\"imgSizeType\":\"01\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/c2597aad19c24e069b5c66c2907221b5.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da80\",\"webpImg\":\"\"},{\"imgSizeType\":\"02\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/ccff479c1fac4a08884a42ac4675cc4e.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da7f\",\"webpImg\":\"\"},{\"imgSizeType\":\"03\",\"img\":\"https://d.musicapp.migu.cn/data/oss/resource/00/5k/yn/9c343d4b4b974440947b7e67902f529d.webp\",\"imgOri\":\"\",\"fileId\":\"69b7824ae2e475036ee3da7e\",\"webpImg\":\"\"}],\""
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/41/zf/65057d42f5f247cf9fc8879cf0ec677c.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/4t/9j/22ab4dadcfd94d12ad8ee266d8b1e5cb.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://app.u.nf.migu.cn/pc/v1.0/content/search_all.do?text=%E5%91%A8%E6%9D%B0%E4%BC%A6&pageNo=1&pageSize=20&searchSwitch={%22songlist%22:+1}",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207433476",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"成功\",\"songListResultData\":{\"totalCount\":\"200\",\"correct\":[],\"result\":[{\"id\":\"233754996\",\"resourceType\":\"2021\",\"name\":\"周杰伦精选100首：青春百听不厌\",\"userId\":\"93e4060b-a518-4ae5-ac1d-11805d03b813\",\"musicNum\":\"100\",\"keepNum\":\"876\",\"playNum\":\"1481809\",\"shareNum\":\"20\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/op/e884a1a5e3ee497ab73c43c983faf6af.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233585566\",\"resourceType\":\"2021\",\"name\":\"晴天雨天，都是有周杰伦彩铃的每一天\",\"userId\":\"3dca0ae4-28f3-4816-a738-bc7bae966903\",\"musicNum\":\"23\",\"keepNum\":\"129\",\"playNum\":\"1207789\",\"shareNum\":\"75\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"人气\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oq/3ad0e75f9e4f42589fa69ce0318e2e33.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233541596\",\"resourceType\":\"2021\",\"name\":\"无与伦比！周杰伦情歌精选\",\"userId\":\"0b6293aa-90fb-40eb-b602-27a38664a9c3\",\"musicNum\":\"50\",\"keepNum\":\"236\",\"playNum\":\"1324741\",\"shareNum\":\"284\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"情歌\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/on/e85bd9e55c6d4d7eb550f1fee7215849.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233533414\",\"resourceType\":\"2021\",\"name\":\"周杰伦x方文山x林迈可：华语金曲制造机\",\"userId\":\"9c3aba19-a1c5-4d30-8ac1-aa21a36d2720\",\"musicNum\":\"21\",\"keepNum\":\"55\",\"playNum\":\"694358\",\"shareNum\":\"90\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oo/f86ace9110b9420c87d86916df1e1d99.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233531254\",\"resourceType\":\"2021\",\"name\":\"盘点周杰伦的国风「Jay」作\",\"userId\":\"dafdf379-4f25-4000-9c50-45087814095d\",\"musicNum\":\"24\",\"keepNum\":\"96\",\"playNum\":\"618287\",\"shareNum\":\"22\",\"priority\":\"0\",\"ts\":[\"中国风\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/on/e6f6155b2d2c49569a6a713a746981aa.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"233542035\",\"resourceType\":\"2021\",\"name\":\"不止作曲封神｜周杰伦独立作词作品精选\",\"userId\":\"b9859fb9-5ad2-4e75-997b-6b77104cb518\",\"musicNum\":\"41\",\"keepNum\":\"62\",\"playNum\":\"580761\",\"shareNum\":\"237\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/oo/d1aaa12497f54d86b58c7b4d0c0ff565.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"231760782\",\"resourceType\":\"2021\",\"name\":\"周杰伦正序：青春从“Jay”开始\",\"userId\":\"051c8f0f-c349-43b0-b0e1-7c1150593db9\",\"musicNum\":\"195\",\"keepNum\":\"1950\",\"playNum\":\"2880444\",\"shareNum\":\"615\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"00年代\",\"金曲\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/o7/04c4e627b4fe4e11ad514cea9fd5a790.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228758216\",\"resourceType\":\"2021\",\"name\":\"青春的BGM是周杰伦给的！\",\"userId\":\"e987dbe1-32ef-4d95-8916-44f98d02962b\",\"musicNum\":\"31\",\"keepNum\":\"119\",\"playNum\":\"1696774\",\"shareNum\":\"38\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/kz/a4503495ba874c0b9cf6bf1db8ba9e87.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228757721\",\"resourceType\":\"2021\",\"name\":\"你因为哪句歌词爱上周杰伦？\",\"userId\":\"e3b0d3dc-1dd2-4328-ae67-db51a9b1e365\",\"musicNum\":\"49\",\"keepNum\":\"65\",\"playNum\":\"1524524\",\"shareNum\":\"209\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/kz/a466b376f73b41a1aa305858e11298bf.jpg\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"231146988\",\"resourceType\":\"2021\",\"name\":\"双J交响丨周杰伦×林俊杰开口就是黄金时代\",\"userId\":\"7d428135-f0b9-4428-a956-da0bba8b1add\",\"musicNum\":\"100\",\"keepNum\":\"433\",\"playNum\":\"1004636\",\"shareNum\":\"300\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/nx/b08765087467462daf353c3766b90b33.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227985496\",\"resourceType\":\"2021\",\"name\":\"周杰伦|听多少遍反方向的钟才能回到过去\",\"userId\":\"7c144d56-dc50-4392-a02e-f80337237f79\",\"musicNum\":\"24\",\"keepNum\":\"92\",\"playNum\":\"1306767\",\"shareNum\":\"225\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"90后\",\"00后\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/bb/4792f5d7f29c4a1e82f77758ca55607b.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227925689\",\"resourceType\":\"2021\",\"name\":\"周杰伦|哪一首是你的青春？\",\"userId\":\"b9a656e9-1349-4655-82f0-6cdc06e06b15\",\"musicNum\":\"30\",\"keepNum\":\"22\",\"playNum\":\"1080470\",\"shareNum\":\"20\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"青春校园\",\"感动\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/b7/d9d82ebb51ec4387886e647c2c63bd96_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"228871226\",\"resourceType\":\"2021\",\"name\":\"周杰伦 · 你出现在我「青春」的每一页\",\"userId\":\"7d2c6b41-b61f-4db0-8d8f-97d218b403b3\",\"musicNum\":\"182\",\"keepNum\":\"729\",\"playNum\":\"2022181\",\"shareNum\":\"190\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service98/00/1w/lf/2dffd31d3dbe492b8c61e12466d28e2b.png\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227870629\",\"resourceType\":\"2021\",\"name\":\"盲盒寻宝! 挖掘周杰伦优质宝藏\",\"userId\":\"e126ac64-ab51-4c76-b57d-baabbc94d03a\",\"musicNum\":\"30\",\"keepNum\":\"53\",\"playNum\":\"542720\",\"shareNum\":\"182\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/b0/24bdf298cab24f1eba5cb56e18190751.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227870628\",\"resourceType\":\"2021\",\"name\":\"有一种经典叫龙卷风 | 我们的青春周杰伦\",\"userId\":\"32b00655-c5e5-4c49-849a-294f56a4fc66\",\"musicNum\":\"20\",\"keepNum\":\"83\",\"playNum\":\"736354\",\"shareNum\":\"273\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/az/2d32c137737644f3b8ee48f67c138a32_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227603324\",\"resourceType\":\"2021\",\"name\":\"「全糖」周杰伦甜蜜情歌\",\"userId\":\"32b00655-c5e5-4c49-849a-294f56a4fc66\",\"musicNum\":\"22\",\"keepNum\":\"82\",\"playNum\":\"934884\",\"shareNum\":\"1361\",\"priority\":\"0\",\"ts\":[\"国语\",\"甜蜜\",\"情歌\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/ah/a8c651a2fec842b7acaab0ffc4925fc6.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227603319\",\"resourceType\":\"2021\",\"name\":\"校园青春记忆总会有一首周杰伦\",\"userId\":\"8e657a89-cf70-428e-844a-52b63addb34c\",\"musicNum\":\"30\",\"keepNum\":\"77\",\"playNum\":\"908559\",\"shareNum\":\"1561\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\",\"青春校园\",\"感动\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/ak/dad52c46f8b9460988497624711e40c8.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227265004\",\"resourceType\":\"2021\",\"name\":\"过耳难忘 | 有一种品质叫周杰伦作曲\",\"userId\":\"001166fb-784d-45d1-bb28-0b7450f7f6ab\",\"musicNum\":\"36\",\"keepNum\":\"199\",\"playNum\":\"780240\",\"shareNum\":\"2181\",\"priority\":\"0\",\"ts\":[\"国语\",\"曲作人\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a3/e42cfa11d28744908bd2b6feb7fd4843.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227127922\",\"resourceType\":\"2021\",\"name\":\"周杰伦 | 90后的青春回忆\",\"userId\":\"15574164756480226228504\",\"musicNum\":\"24\",\"keepNum\":\"146\",\"playNum\":\"1620174\",\"shareNum\":\"1426\",\"priority\":\"0\",\"ts\":[\"经典老歌\",\"治愈\",\"90后\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a1/755631a36a7b48b7876b7b1fb5b65b6f_m.webp\",\"highlightStr\":[\"周杰伦\"]},{\"id\":\"227092165\",\"resourceType\":\"2021\",\"name\":\"那些年，我们一起听过的周杰伦\",\"userId\":\"16125015-a3f8-420c-aac9-83acc1a8cdab\",\"musicNum\":\"189\",\"keepNum\":\"159\",\"playNum\":\"861996\",\"shareNum\":\"1710\",\"priority\":\"0\",\"ts\":[\"流行\",\"国语\"],\"musicListPicUrl\":\"https://d.musicapp.migu.cn/data/oss/service66/00/2c/a2/44ae835f886f4387b2dcfe911456ba79.webp\",\"highlightStr\":[\"周杰伦\"]}]},\"bestShowResultToneData\":{}}"
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5w/p6/87f56b4e673846c093084166cb03a5f3.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/a64e69c4d8c54f59b580b1a25ae5ceb3.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/4t/9y/0eb83b01c14945ceb351cc5f66be8c7d.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/f446f925ccb1497197f8f93a30f58715.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5k/yo/1bf37c7855ca468ebf5fe713caf6ea09.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5u/7q/d0ebff37292f4a958bb5c193310859d0.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://app.c.nf.migu.cn/opnum/query-optype/v1.0?opType=play&resourceType=5&ids=600927015009001083,600927015009000944,600927015009000351",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207433966",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":{\"600927015009000351\":{\"opNum\":3548604,\"opNumDesc\":\"354.9万\"},\"600927015009001083\":{\"opNum\":14366631,\"opNumDesc\":\"1436.7万\"},\"600927015009000944\":{\"opNum\":44786977,\"opNumDesc\":\"4478.7万\"}}}"
+  },
+  {
+    "url": "https://d.musicapp.migu.cn/data/oss/resource/00/5u/e3/d535b330118d4e7d895884efdefbe382.webp",
+    "method": "GET",
+    "status": 200,
+    "contentType": "image/webp",
+    "resourceType": "image",
+    "requestHeaders": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://music.migu.cn/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://app.c.nf.migu.cn/opnum/query-optype/v1.0?opType=play&resourceType=2003&ids=1140505221,21090,1141456456,1115512805,8592,26187,1125329686,1000001899,25578,7947,7949,23799,1000002033,63205,7948,1000012211,1000002120",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "resourceType": "xhr",
+    "requestHeaders": {
+      "appid": "h5",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "timestamp": "1782207434569",
+      "test": "00",
+      "sec-ch-ua": "\"Google Chrome\";v=\"149\", \"Chromium\";v=\"149\", \"Not)A;Brand\";v=\"24\"",
+      "pacmtoken": "",
+      "sec-ch-ua-mobile": "?0",
+      "deviceid": "42D18D83-5E2B-4A1D-BA31-439C86135D22",
+      "imei": "h5page",
+      "subchannel": "014X031",
+      "imsi": "h5page",
+      "accept": "application/json, text/plain, */*",
+      "channel": "014X031",
+      "activityid": "MUSIC-WWW",
+      "platform": "H5",
+      "referer": "https://music.migu.cn/",
+      "uid": "",
+      "logid": "cfrom=&appId=h5",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "version": "6.8.8",
+      "ua": "Android_migu"
+    },
+    "bodyPreview": "{\"code\":\"000000\",\"info\":\"操作成功\",\"data\":{\"25578\":{\"opNum\":16073875,\"opNumDesc\":\"1607.4万\"},\"63205\":{\"opNum\":13232720,\"opNumDesc\":\"1323.3万\"},\"1141456456\":{\"opNum\":23103,\"opNumDesc\":\"2.3万\"},\"8592\":{\"opNum\":29999895,\"opNumDesc\":\"3000.0万\"},\"1140505221\":{\"opNum\":290347,\"opNumDesc\":\"29.0万\"},\"1115512805\":{\"opNum\":4960380,\"opNumDesc\":\"496.0万\"},\"1000001899\":{\"opNum\":26322646,\"opNumDesc\":\"2632.3万\"},\"23799\":{\"opNum\":4623489,\"opNumDesc\":\"462.3万\"},\"1125329686\":{\"opNum\":18191356,\"opNumDesc\":\"1819.1万\"},\"26187\":{\"opNum\":2138545,\"opNumDesc\":\"213.9万\"},\"1000002033\":{\"opNum\":1751123,\"opNumDesc\":\"175.1万\"},\"1000002120\":{\"opNum\":883629,\"opNumDesc\":\"88.4万\"},\"1000012211\":{\"opNum\":10054997,\"opNumDesc\":\"1005.5万\"},\"7947\":{\"opNum\":35203974,\"opNumDesc\":\"3520.4万\"},\"7949\":{\"opNum\":30482836,\"opNumDesc\":\"3048.3万\"},\"21090\":{\"opNum\":6373541,\"opNumDesc\":\"637.4万\"},\"7948\":{\"opNum\":34433571,\"opNumDesc\":\"3443.4万\"}}}"
+  }
+]
