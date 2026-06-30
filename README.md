@@ -2,7 +2,7 @@
 
 # musicfree-plugins
 
-用于开发测试musicfree插件
+用于开发测试musicfree插件  [参考插件](https://github.com/qwerwhr/musicfree-plugins)
 
 这是一个可直接导入 MusicFree 的外部插件工程骨架，目标是接入咪咕音乐的公开可访问内容，支持搜索、歌词、歌单链接解析与歌单导入的开发流程。
 
